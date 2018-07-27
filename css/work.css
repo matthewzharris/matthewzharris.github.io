@@ -1,0 +1,38 @@
+/* General Overrides */
+h1 {
+  visibility: hidden;
+}
+
+h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin-bottom: 0.8em;
+  display: inline-block;
+  background-color: white;
+  padding: 0.5rem;
+}
+
+/* Header */
+
+.hero {
+  max-width: 80%;
+}
+
+/* Body */
+
+section:nth-of-type(even) {
+  background-color: #1b1b1b;
+}
+
+.work-img {
+  max-width: 80%;
+  display: block;
+  margin: auto;
+  border: 3px solid white;
+  margin-top: 2rem;
+}
+
+.work-img + p {
+  margin-top: 2rem;
+}
