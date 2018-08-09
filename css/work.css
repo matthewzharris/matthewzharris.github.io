@@ -25,7 +25,8 @@ section:nth-of-type(even) {
   background-color: #1b1b1b;
 }
 
-.work-img {
+.work-img,
+video {
   max-width: 80%;
   display: block;
   margin: auto;
