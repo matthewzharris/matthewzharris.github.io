@@ -36,3 +36,22 @@ section:nth-of-type(even) {
 .work-img + p {
   margin-top: 2rem;
 }
+
+.work-item-img {
+  height: 15rem;
+}
+
+.work-item-img .work-content {
+  opacity: 1;
+}
+
+.work-item-img h3 {
+  color: black;
+  font-weight: bold;
+  font-family: "HelveticaNeue", "Helvetica Neue", "Helvetica Neue", Helvetica,
+    Arial, "Lucida Grande", sans-serif;
+  background-color: transparent;
+  padding: 0;
+  display: block;
+  margin-bottom: 0.2rem;
+}
