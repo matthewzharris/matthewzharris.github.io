@@ -1,0 +1,147 @@
+/* General */
+
+html {
+  font-size: 20px;
+}
+
+body {
+  background-color: #0d0c0c;
+  padding-top: 56px;
+  line-height: 1.58;
+  font-family: georgia, serif;
+  letter-spacing: -0.003rem;
+  color: rgba(255, 255, 255, 0.9);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid #67fcfa;
+}
+
+a:hover,
+a:active {
+  color: #67fcfa;
+  text-decoration: none;
+  border-bottom: 1px solid #67fcfa;
+}
+
+ul {
+  margin-left: -20px;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+h1 {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 3rem;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Helvetica Neue', helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-weight: bold;
+  margin-bottom: 0.8em;
+}
+
+h4 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 0.8rem;
+}
+
+hr {
+  text-align: center;
+  border: none;
+  height: auto;
+  margin-top: 0;
+}
+
+hr:before {
+  content: '...';
+  display: inline-block;
+  margin-left: 0.6em;
+  color: rgba(255, 255, 255, 0.9);
+  position: relative;
+  top: -18px;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 3rem;
+  letter-spacing: 0.6em;
+}
+
+p,
+ul,
+img,
+video {
+  margin-bottom: 2.5rem;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+.btn.btn-light {
+  background-color: #67fcfa;
+  -webkit-appearance: none;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 0;
+}
+
+/* Vertical Rythm */
+
+.mt-6 {
+  margin-top: 7.5rem !important;
+}
+
+.mb-6 {
+  margin-bottom: 7.5rem !important;
+}
+
+/* Footer */
+
+.footer-links {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: right;
+  display: inline-block;
+}
+
+@media (min-width: 992px) {
+  .footer-links {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .mt-6 {
+    margin-top: 7rem !important;
+  }
+
+  .mb-6 {
+    margin-bottom: 7rem !important;
+  }
+}

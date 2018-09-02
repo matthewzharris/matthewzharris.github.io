@@ -1,0 +1,14 @@
+.caption {
+  font-style: italic;
+}
+
+.image {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.image-wrapper {
+  text-align: center;
+}

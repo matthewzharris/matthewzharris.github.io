@@ -1,0 +1,24 @@
+.nav a {
+  color: rgba(255, 255, 255, 0.9);
+  border-bottom: none;
+}
+
+.nav {
+  background: #0d0c0c;
+  margin-left: 0;
+}
+
+.nav li {
+  margin-bottom: 0;
+}
+
+.nav-logo {
+  height: 30px;
+  margin-bottom: 0;
+}
+
+.nav-logo-link {
+  flex: 0;
+  margin-right: auto;
+  line-height: 44px;
+}
