@@ -2,6 +2,7 @@ import React from 'react';
 
 import Section, { SubSection } from '../Section';
 import Image from '../Image';
+import Video from '../Video';
 
 import productReviewImage from '../../images/p2productreviewflow.jpg';
 
@@ -35,13 +36,10 @@ const Solution = () => (
         on this page she could review her order details before confirming.
       </p>
       <div className="text-center">
-        <video width="80%" autoPlay loop muted>
-          <source
-            src="https://media.giphy.com/media/553ZAHDrfHa2BQnFGF/giphy.mp4"
-            type="video/mp4"
-          />{' '}
-          Your browser does not support the video tag.
-        </video>
+        <Video
+          width="80%"
+          src="https://media.giphy.com/media/553ZAHDrfHa2BQnFGF/giphy.mp4"
+        />
       </div>
     </SubSection>
 
