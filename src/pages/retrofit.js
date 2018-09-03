@@ -32,7 +32,7 @@ const Retrofit = () => (
       tools="Pen & Paper, Sketch, Omnigraffle, Keynote"
       deliverables="Interactive Wireframe Prototype, Sitemap"
       team="None"
-      impact="Something short"
+      impact=""
       problem="Shoppers need a way to efficiently navigate Retrofit Home’s website because the current site is unstructured in a way that impedes product discoverability. In addition, shoppers need a way to create product reviews because reviews build confidence in purchase decisions."
       goal="Improve Retrofit Home’s website—through more intuitive navigation, creating a product review feature and streamlining the checkout process—to achieve higher online sales and in-store traffic."
     />
