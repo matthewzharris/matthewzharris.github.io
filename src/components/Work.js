@@ -46,7 +46,7 @@ const Work = () => (
         <WorkItem
           link="/retrofit/"
           title="Retrofit Home"
-          subtitle="UX Design (Content Strategy, Information Architecture & Interaction Design)"
+          subtitle="User Research, Information Architecture, Interaction Design"
           image={retrofitImage}
           cover={false}
         />
