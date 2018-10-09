@@ -42,10 +42,26 @@ const Research = () => (
 
     <hr />
 
-    <SubSection title="Sitemap Analysis">
+    <SubSection title="User Interviews">
       <p>
-        After visiting the business, I created a sitemap for Retrofit Home and
-        noted several navigational issues including:
+        I interviewed 3 users about their habits of shopping online for
+        furniture in order to find common pain points. Overall, they reported
+        that while they only make large furniture purchases every few years and
+        they prefer to make those purchases in person after browsing a
+        retailer’s website. Other small purchases they were more likely to make
+        throughout the year were online purchases which requires a fluid
+        browsing experience.
+      </p>
+    </SubSection>
+
+    <SubSection title="Contextual Inquiries">
+      <p>
+        In order to look at issues with the current site, I had 4 users walk
+        through different tasks including browsing the site and making a
+        purchase on the site. The issues that came up were primarily around
+        navigation and the information architecture of the site. Below, I
+        highlighted the areas of the sitemap that users struggled with
+        including:
       </p>
       <ul>
         <li>

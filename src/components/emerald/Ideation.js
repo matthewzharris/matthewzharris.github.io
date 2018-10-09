@@ -3,10 +3,11 @@ import React from 'react';
 import Section, { SubSection } from '../Section';
 import Image from '../Image';
 
-import initialDesignImage from '../../images/hackathoninitialdesign.jpg';
+import initialDesignImage from '../../images/SHHinitialdesign.jpg';
 import homeLowFiImage from '../../images/hackathonhomelowfi.jpg';
 import guideLowFiImage from '../../images/hackathonguidelowfi.jpg';
 import modalLowFiImage from '../../images/hackathonmodallowfi.jpg';
+import hackathonCardImage from '../../images/hackathoncardsorting.jpg';
 
 const Ideation = () => (
   <Section shade={2} title="Ideation">
@@ -28,6 +29,7 @@ const Ideation = () => (
         items into manageable top level categories. I did a card sorting
         activity to achieve this:
       </p>
+      <Image alt="Hackathon Card Sort" src={hackathonCardImage} />
     </SubSection>
 
     <hr />
