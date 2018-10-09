@@ -1,8 +1,8 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react';
 
-import './Overview.css'
+import './Overview.css';
 
-import Image from './Image'
+import Image from './Image';
 
 const Stats = ({ brief, client, tools, deliverables, team }) => (
   <div className="row">
@@ -27,14 +27,14 @@ const Stats = ({ brief, client, tools, deliverables, team }) => (
       <p>{team}</p>
     </div>
   </div>
-)
+);
 
 const Impact = ({ impact }) => (
   <Fragment>
     <h3>My Impact</h3>
     <p>{impact}</p>
   </Fragment>
-)
+);
 
 const DesignProcess = ({ image }) => (
   <div className="row">
@@ -45,7 +45,7 @@ const DesignProcess = ({ image }) => (
       </div>
     </div>
   </div>
-)
+);
 
 const ProblemGoal = ({ problem, goal }) => (
   <div className="row">
@@ -58,7 +58,7 @@ const ProblemGoal = ({ problem, goal }) => (
       <p>{goal}</p>
     </div>
   </div>
-)
+);
 
 const Overview = ({
   brief,
@@ -72,7 +72,7 @@ const Overview = ({
   designImage,
 }) => (
   <div className="container">
-    <div className="row">
+    <div className="row justify-content-center">
       <div className="col-md-7">
         <Stats
           brief={brief}
@@ -82,15 +82,17 @@ const Overview = ({
           team={team}
         />
       </div>
-      <div className="col-md-5 impact pt-4 pb-4 p-sm-4">
-        <Impact impact={impact} />
-      </div>
+      {impact && (
+        <div className="col-md-5 impact pt-4 pb-4 p-sm-4">
+          <Impact impact={impact} />
+        </div>
+      )}
     </div>
     <hr />
     <ProblemGoal problem={problem} goal={goal} />
     {designImage && <hr />}
     {designImage && <DesignProcess image={designImage} />}
   </div>
-)
+);
 
-export default Overview
+export default Overview;

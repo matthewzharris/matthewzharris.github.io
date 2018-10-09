@@ -36,8 +36,8 @@
   background-image: linear-gradient(
     to left top,
     #67fcfa 0%,
-    #67fcfa 40%,
-    transparent 60%
+    #67fcfa 53%,
+    rgba(103, 252, 250, 0) 75%
   );
   position: absolute;
   width: 100%;

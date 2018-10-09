@@ -2,6 +2,7 @@ import React from 'react';
 
 import Section, { SubSection } from '../Section';
 import Image from '../Image';
+import Video from '../Video';
 
 import siteMapImage from '../../images/p3finalsitemap.jpg';
 import styleguideImage from '../../images/p3styleguide.jpg';
@@ -99,13 +100,10 @@ const Solution = () => (
         the final app logo.
       </p>
       <div className="text-center">
-        <video width="30%" autoPlay loop muted>
-          <source
-            src="https://media.giphy.com/media/55ocWdRjmf1OO2PlAd/giphy.mp4"
-            type="video/mp4"
-          />{' '}
-          Your browser does not support the video tag.
-        </video>
+        <Video
+          width="30%"
+          src="https://media.giphy.com/media/55ocWdRjmf1OO2PlAd/giphy.mp4"
+        />
       </div>
       <p>
         For the final flow about emergency resources, I renamed the “Info”

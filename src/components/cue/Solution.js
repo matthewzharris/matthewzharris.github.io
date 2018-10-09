@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 
 import Section, { SubSection } from '../Section';
 import Image from '../Image';
+import Video from '../Video';
 
 import styleguideImage from '../../images/p4styleguide.jpg';
 import signInImage from '../../images/p4signin.jpg';
@@ -44,13 +45,11 @@ const Solution = () => (
         the event has been created.
       </p>
       <div className="text-center">
-        <video width="30%" autoPlay loop muted defaultPlaybackRate="3.0">
-          <source
-            src="https://media.giphy.com/media/1ivFhqQkRuUykAenuv/giphy.mp4"
-            type="video/mp4"
-          />{' '}
-          Your browser does not support the video tag.
-        </video>
+        <Video
+          width="30%"
+          playbackRate={3}
+          src="https://media.giphy.com/media/1ivFhqQkRuUykAenuv/giphy.mp4"
+        />
       </div>
 
       <p>
