@@ -6,6 +6,7 @@ import cueImage from '../images/cue.jpg';
 import readyImage from '../images/ready.jpg';
 import retrofitImage from '../images/retrofit.jpg';
 import emeraldImage from '../images/emerald.jpg';
+import SHHImage from '../images/SHHheroimagewhite.jpg';
 
 const Work = () => (
   <section className="container" id="work">
@@ -23,31 +24,41 @@ const Work = () => (
       </div>
     </div>
     <div className="row mb-4">
-      <div className="col-md mb-4 mb-md-0">
+      <div className="col-md-8 mb-4 mb-md-0">
+        <WorkItem
+          link="/seahappyhours/"
+          title="SEA Happy Hours"
+          subtitle="UX Design"
+          image={SHHImage}
+          cover={false}
+        />
+      </div>
+      <div className="col-md-4">
         <WorkItem
           link="/ready/"
           title="ReadySeattle"
           subtitle="Information Architecture, Visual Design, Project Management"
           image={readyImage}
-        />
-      </div>
-      <div className="col-md">
-        <WorkItem
-          link="/emerald/"
-          title="Emerald Seattle"
-          subtitle="Interaction Design, Visual Design, Project Management"
-          image={emeraldImage}
           cover={false}
         />
       </div>
     </div>
     <div className="row">
-      <div className="col-sm">
+      <div className="col-md-4 mb-4 mb-md-0">
         <WorkItem
           link="/retrofit/"
           title="Retrofit Home"
           subtitle="User Research, Information Architecture, Interaction Design"
           image={retrofitImage}
+          cover={false}
+        />
+      </div>
+      <div className="col-md-8">
+        <WorkItem
+          link="/emerald/"
+          title="Emerald Seattle"
+          subtitle="Interaction Design, Visual Design, Project Management"
+          image={emeraldImage}
           cover={false}
         />
       </div>

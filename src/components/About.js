@@ -1,7 +1,7 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
 
-import './About.css'
+import './About.css';
 
 const About = () => (
   <section className="container mt-6 mb-5" id="about">
@@ -56,6 +56,6 @@ const About = () => (
       </div>
     </div>
   </section>
-)
+);
 
-export default About
+export default About;

@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 
 import Section, { SubSection } from '../Section';
 import Image from '../Image';
+import Video from '../Video';
 
 import SHHstyleguideImage from '../../images/SHHstyleguide.jpg';
 import finalmockupImage from '../../images/SHHfinalmockup.jpg';
@@ -42,13 +43,10 @@ const Solution = () => (
         developer collateral to work from.
       </p>
       <div className="text-center">
-        <video width="80%" autoPlay loop muted>
-          <source
-            src="https://www.dropbox.com/s/w434so11b97ijxt/SHHShortened.mp4?raw=1"
-            type="video/mp4"
-          />{' '}
-          Your browser does not support the video tag.
-        </video>
+        <Video
+          width="100%"
+          src="https://www.dropbox.com/s/w434so11b97ijxt/SHHShortened.mp4?raw=1"
+        />
       </div>
     </SubSection>
   </Section>
