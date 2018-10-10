@@ -12,21 +12,32 @@ const Research = () => (
   <Section shade={1} title="Research">
     <SubSection title="User Research">
       <p>
-        In order to start the project, I wanted to interview potential users
-        about their experiences choosing a happy hour to attend. From
-        interviews, I found that users were concerned about the happy hour
-        specials being updated regularly, the time and location of the happy
-        hour, and what the food and drink specials included. I created a user
-        flow about the process that a user would go through to pick a happy
-        hour.
+        I started the project by interviewing 3 potential users about their
+        experiences choosing happy hours and restaurants. I discovered three
+        major themes from user interviews:
+      </p>
+      <ul>
+        <li>
+          Users were concerned about the time and location (their distance) from
+          the happy hour
+        </li>
+        <li>They wanted to know what the food and drink specials included</li>
+        <li>
+          They wanted to be sure that the specials were being updated regularly
+        </li>
+      </ul>
+      <p>
+        From interviews, I created a flow about the process that a user would go
+        through to choose a happy hour.
       </p>
       <Image alt="Happy Hour User Flow" src={SHHuserflowImage} />
     </SubSection>
 
     <SubSection title="Persona">
       <p>
-        From user interviews, I created the persona Rob to respond to his pain
-        points, behaviors, and demographics in the design of the product.
+        As a design tool, I like to create personas to help focus the design of
+        the product. I made the persona Rob who embodied the motifs and paint
+        points from interviews.
       </p>
       <Image alt="Persona" src={SHHpersonaImage} />
     </SubSection>
@@ -35,27 +46,31 @@ const Research = () => (
 
     <SubSection title="Comparative Analysis">
       <p>
-        When looking at the happy hour locator market, the two best examples
-        were DCHappyHours.com and the Happy Hour Finder mobile app.
+        I continued my research by looking at apps and websites that help users
+        find happy hours to see what is available to users. The two best
+        examples I found were DCHappyHours.com and the Happy Hour Finder mobile
+        app.
       </p>
 
       <p>
-        Having lived in DC, I was aware of DCHappyHours.com. In terms of
-        usability, I found that the website was easy for users to complete the
-        main task of finding a happy hour and that the happy hour information
-        was updated frequently. The aspects that needed work were the overall
-        aesthetics and the information architecture of the site.
+        Having lived in DC, I was aware of DC Happy Hours website and wanted to
+        include it in my research because I think it had some positive
+        attributes. In terms of usability, the website was easy for users to
+        complete the main task of finding a happy hour and the happy hour
+        information was updated frequently. In terms of improvement, the overall
+        aesthetics and the information architecture of the site were lacking.
       </p>
 
       <Image alt="DC Happy Hours" src={DCHappyHoursImage} />
 
       <p>
-        The Happy Hour Finder app automatically provided users with happy hours
-        within a mile to choose from, which was good for finding a happy hour.
-        Unfortunately, the lack of filter or search didn't allow easy
-        navigation. In addition, the individual restaurant pages were hard to
-        read, inconsistent in their information architecture, and the happy hour
-        information is out of date according to app store reviews.
+        The nationwide mobile app, Happy Hour Finder, automatically provided
+        users with happy hours within a mile from their location to choose from.
+        Unfortunately, if the ones listed weren't what you wanted, there was no
+        filter or search to allow a user to navigate to other options. In
+        addition, the individual restaurant pages were extremely hard to read,
+        inconsistent in their information architecture, and the information is
+        out of date according to app store reviews.
       </p>
       <Image alt="Happy Hour Finder" src={happyhourfinderImage} />
     </SubSection>

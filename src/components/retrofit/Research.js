@@ -44,13 +44,13 @@ const Research = () => (
 
     <SubSection title="User Interviews">
       <p>
-        I interviewed 3 users about their habits of shopping online for
-        furniture in order to find common pain points. Overall, they reported
+        I interviewed 3 users about their habits of shopping online for home
+        goods in order to find common themes. Overall, they reported that they
+        typically made small online purchases throughout the year, which for
+        them, required a fluid browsing experience. Additionally, they reported
         that while they only make large furniture purchases every few years and
         they prefer to make those purchases in person after browsing a
-        retailer’s website. Other small purchases they were more likely to make
-        throughout the year were online purchases which requires a fluid
-        browsing experience.
+        retailer’s website.
       </p>
     </SubSection>
 
@@ -65,21 +65,23 @@ const Research = () => (
       </p>
       <ul>
         <li>
-          The online shop is an uncategorized bucket of all their products
+          Online shop is an uncategorized bucket of all their products making it
+          hard to find specific items
         </li>
-        <li>The shopping cart doesn’t appear until products are added</li>
-        <li>The gallery is just a bunch of external links</li>
         <li>
-          The lookbook looks unfinished and directs users to the online shop and
+          Shopping cart isn't persistent and doesn’t appear until products are
+          added
+        </li>
+        <li>Gallery is just a bunch of external links</li>
+        <li>
+          Lookbook seems unfinished and directs users to the online shop and
           contact page
         </li>
         <li>
-          The About Us page is featured in their primary navigation although
-          typically unvisited
+          About Us page is featured in their primary navigation although rarely
+          visited
         </li>
-        <li>
-          Their social media links are accessible only through the homepage
-        </li>
+        <li>Social media links are accessible only through the homepage</li>
       </ul>
       <Image alt="Sitemap Analysis" src={sitemapImage} />
     </SubSection>
@@ -88,13 +90,13 @@ const Research = () => (
 
     <SubSection title="Persona">
       <p>
-        Based on the user research, I chose Lauren as the primary persona based
-        on her demographics, behaviors, and needs, which align with Retrofit’s
-        core customer. Lauren’s decision making process is focused on flashy
-        copywriting, product details, and large photos of products. She needs
-        reviews when shopping to be confident in what she is buying. Finally,
-        she wants a quick, efficient checkout process (even from mobile) so that
-        she can get her products fast.
+        Based on the user research, I selected Lauren as the primary persona
+        based on her demographics, behaviors, and needs, which align with
+        Retrofit’s core customer. Lauren’s decision making process is focused on
+        flashy copywriting, product details, and large photos of products. She
+        needs reviews when shopping to be confident in what she is buying.
+        Finally, she wants a quick, efficient checkout process (even from
+        mobile) so that she can get her products fast.
       </p>
       <Image alt="Persona" src={personaImage} />
     </SubSection>

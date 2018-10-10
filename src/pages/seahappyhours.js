@@ -30,7 +30,7 @@ const SEAHappyHours = () => (
       tools="Pen & Paper, Whiteboard, Omnigraffle, Sketch, Invision"
       deliverables="Working website"
       team="1 UX Designer, 1 Software Engineer"
-      impact="During this project, I was the sole UX Designer focused on all aspects of the experience and product strategy."
+      impact="During this project, I was the sole UX Designer focused on all aspects of the user experience and product strategy. This included a particular focus on the information architecture, interaction design, and visual design of the website."
       problem="Seattle’s residents don’t have an easy way of determining where and when happy hours occur."
       goal="Create a responsive website that will provide users with quick access to happy hour related information"
     />

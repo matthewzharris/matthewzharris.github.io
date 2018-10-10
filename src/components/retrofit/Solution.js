@@ -32,8 +32,8 @@ const Solution = () => (
         brought to the shipping information page. The progress indicator would
         help assure where she is in the process and action buttons would be
         easily clickable for her. She would move to the updated payment page,
-        click Review & Confirm when she entered her payment details. And finally
-        on this page she could review her order details before confirming.
+        click Review & Confirm when she entered her payment details to finalize
+        the order.
       </p>
       <div className="text-center">
         <Video
@@ -54,8 +54,8 @@ const Solution = () => (
           speed up future transactions)
         </li>
         <li>
-          Order history for product reviews (allows faster access to products to
-          leave reviews)
+          Order history for product reviews (allows users to quickly leave
+          product reviews)
         </li>
       </ul>
       <p>Checkout process</p>

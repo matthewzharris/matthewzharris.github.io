@@ -27,7 +27,7 @@ const Retrofit = () => (
       </p>
     </Hero>
     <Overview
-      brief="Retrofit Home is looking to redesign their website to have a better user experience and increase their sales both in store and online."
+      brief="Local retailer Retrofit Home is looking to redesign their website to improve the user experience from homepage to checkout and increase their sales both in store and online."
       client="Retrofit Home"
       tools="Pen & Paper, Sketch, Omnigraffle, Keynote"
       deliverables="Interactive Wireframe Prototype, Sitemap"

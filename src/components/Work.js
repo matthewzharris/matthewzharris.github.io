@@ -3,10 +3,10 @@ import React from 'react';
 import WorkItem from '../components/WorkItem';
 
 import cueImage from '../images/cue.jpg';
-import readyImage from '../images/ready.jpg';
-import retrofitImage from '../images/retrofit.jpg';
+import readyImage from '../images/P3HeroFinal.jpg';
+import retrofitImage from '../images/P2HeroFinal.jpg';
 import emeraldImage from '../images/emerald.jpg';
-import SHHImage from '../images/SHHheroimagewhite.jpg';
+import SHHImage from '../images/SHHhero2.jpg';
 
 const Work = () => (
   <section className="container" id="work">
@@ -24,7 +24,7 @@ const Work = () => (
       </div>
     </div>
     <div className="row mb-4">
-      <div className="col-md-8 mb-4 mb-md-0">
+      <div className="col-md-4 mb-4 mb-md-0">
         <WorkItem
           link="/seahappyhours/"
           title="SEA Happy Hours"
@@ -33,7 +33,7 @@ const Work = () => (
           cover={false}
         />
       </div>
-      <div className="col-md-4">
+      <div className="col-md-8">
         <WorkItem
           link="/ready/"
           title="ReadySeattle"
@@ -44,7 +44,7 @@ const Work = () => (
       </div>
     </div>
     <div className="row">
-      <div className="col-md-4 mb-4 mb-md-0">
+      <div className="col-md-8 mb-4 mb-md-0">
         <WorkItem
           link="/retrofit/"
           title="Retrofit Home"
@@ -53,7 +53,7 @@ const Work = () => (
           cover={false}
         />
       </div>
-      <div className="col-md-8">
+      <div className="col-md-4">
         <WorkItem
           link="/emerald/"
           title="Emerald Seattle"
