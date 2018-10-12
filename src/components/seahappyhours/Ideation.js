@@ -5,7 +5,7 @@ import Image from '../Image';
 
 import initialDesignImage from '../../images/SHHinitialdesign.jpg';
 import formdesignImage from '../../images/SHHformdesign.jpg';
-import reviseddesignImage from '../../images/SHHreviseddesign.jpg';
+import reviseddesignImage from '../../images/SHHrevisedesign.jpg';
 import wireframeImage from '../../images/SHHwireframes.jpg';
 import homewireframeImage from '../../images/SHHhomewireframe.jpg';
 
