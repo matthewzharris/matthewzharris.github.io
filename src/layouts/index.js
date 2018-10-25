@@ -17,6 +17,10 @@ const Layout = ({ children, data }) => (
       ]}
     >
       <link key="icon" rel="icon" href={favicon} />
+      <link
+        href="https://fonts.googleapis.com/css?family=PT+Serif"
+        rel="stylesheet"
+      />
     </Helmet>
     <Navigation />
     <div>{children()}</div>

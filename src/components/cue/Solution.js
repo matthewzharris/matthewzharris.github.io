@@ -9,6 +9,7 @@ import signInImage from '../../images/p4signin.jpg';
 import finalEventChatImage from '../../images/p4finaleventchatflow.jpg';
 import finalETAImage from '../../images/p4finaletaflow.jpg';
 import usabilityImage from '../../images/p4usabilityfindings.jpg';
+import deliverablesImage from '../../images/p4deliverables.jpg';
 
 const Solution = () => (
   <Section shade={3} title="Solution">
@@ -94,6 +95,22 @@ const Solution = () => (
         </li>
       </ul>
       <Image src={usabilityImage} alt="Usability" />
+    </SubSection>
+
+    <SubSection title="Redlines & Annotations">
+      <p>
+        After implementing the final changes from usability testing, I prepared
+        the final deliverables for the client. Since the developers on this
+        project were remote, it was extremely important to provide detailed
+        redlines and design annotations to implement the designs. The redlines
+        gave the developers exact specs to use for reusable components like
+        event cards. The detailed design annotations helped explain any
+        interactive elements of the screen.
+      </p>
+      <Image
+        src={deliverablesImage}
+        alt="Redline and Annotation Deliverables"
+      />
     </SubSection>
   </Section>
 );
