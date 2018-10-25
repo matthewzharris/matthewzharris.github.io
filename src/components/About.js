@@ -44,7 +44,7 @@ const About = ({ hideUX }) => (
           <a
             type="button"
             className="btn btn-light mb-4 mb-sm-0"
-            href="./Matt Harris Resume.pdf"
+            href="/Matt Harris Resume.pdf"
             target="_blank"
           >
             Resume
