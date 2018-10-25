@@ -9,7 +9,7 @@ import emeraldImage from '../images/emerald.jpg';
 import SHHImage from '../images/SHHhero2.jpg';
 
 const Work = () => (
-  <section className="container" id="work">
+  <section className="container mb-5 pb-5" id="work">
     <div className="row">
       <h2 className="col-sm">Work</h2>
     </div>

@@ -1,14 +1,14 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
 
-import './WorkItem.css'
+import './WorkItem.css';
 
-const WorkItem = ({ image, link, title, subtitle, cover = true }) => (
+const WorkItem = ({ image, link, title, subtitle, cover = true, bgSize }) => (
   <Link to={link}>
     <div
       style={{
         backgroundImage: `url(${image})`,
-        backgroundSize: cover ? 'cover' : 'contain',
+        backgroundSize: bgSize ? bgSize : cover ? 'cover' : 'contain',
       }}
       className="d-flex flex-column justify-content-end align-items-end p-3 work-item-img work-item-img-cue"
     >
@@ -19,6 +19,6 @@ const WorkItem = ({ image, link, title, subtitle, cover = true }) => (
       </div>
     </div>
   </Link>
-)
+);
 
-export default WorkItem
+export default WorkItem;
