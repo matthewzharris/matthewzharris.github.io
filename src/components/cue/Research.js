@@ -1,14 +1,14 @@
-import React, { Fragment } from 'react'
+import React, { Fragment } from 'react';
 
-import Section, { SubSection } from '../Section'
-import Image from '../Image'
+import Section, { SubSection } from '../Section';
+import Image from '../Image';
 
-import designImage from '../../images/p4process.jpg'
-import analysisImage from '../../images/p4companalysis.jpg'
-import heuristicImage from '../../images/p4heuristics.jpeg'
-import contextualInquiry from '../../images/p4contextualinquiry.jpg'
-import affinityMapping from '../../images/p4interviewaffinitymapping2.jpg'
-import personaImage from '../../images/p4persona.jpg'
+import designImage from '../../images/p4process.jpg';
+import analysisImage from '../../images/p4companalysis.jpg';
+import heuristicImage from '../../images/p4heuristics.jpg';
+import contextualInquiry from '../../images/p4contextualinquiry.jpg';
+import affinityMapping from '../../images/p4interviewaffinitymapping2.jpg';
+import personaImage from '../../images/p4persona.jpg';
 
 const Research = () => (
   <Section shade={1} title="Research">
@@ -99,6 +99,6 @@ const Research = () => (
       <Image src={personaImage} alt="Persona" />
     </SubSection>
   </Section>
-)
+);
 
-export default Research
+export default Research;
