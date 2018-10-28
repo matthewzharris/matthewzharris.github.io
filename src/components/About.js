@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Link from 'gatsby-link';
 
 import './About.css';
 
-const About = () => (
-  <section className="container mt-6 mb-5" id="about">
+const About = ({ hideUX }) => (
+  <section className="container mt-5 mb-5" id="about">
     <div className="row">
       <h2 className="col-sm">About</h2>
     </div>
@@ -22,17 +22,21 @@ const About = () => (
           city, hiking a nearby mountain, or watching old movies with my dog
           Bogart.
         </p>
-        <p>
-          <strong>Why UX</strong>
-        </p>
-        <p>
-          A focus on users has always been a part of my process. In my UX career
-          and past experience in tech consulting, I’ve seen firsthand users
-          interacting with software and have been fascinated with the
-          implications of design on their experiences. Moving to a proactive
-          design role to create for users needs is incredibly fulfilling work
-          that I look forward to sharing with the community.
-        </p>
+        {!hideUX ? (
+          <Fragment>
+            <p>
+              <strong>Why UX</strong>
+            </p>
+            <p>
+              A focus on users has always been a part of my process. In my UX
+              career and past experience in tech consulting, I’ve seen firsthand
+              users interacting with software and have been fascinated with the
+              implications of design on their experiences. Moving to a proactive
+              design role to create for users needs is incredibly fulfilling
+              work that I look forward to sharing with the community.
+            </p>
+          </Fragment>
+        ) : null}
         <div
           id="contact"
           className="contact-links d-flex align-items-center justify-content-between"
@@ -40,7 +44,7 @@ const About = () => (
           <a
             type="button"
             className="btn btn-light mb-4 mb-sm-0"
-            href="./Matt Harris Resume.pdf"
+            href="/Matt Harris Resume.pdf"
             target="_blank"
           >
             Resume
@@ -57,5 +61,9 @@ const About = () => (
     </div>
   </section>
 );
+
+About.defaultProps = {
+  hideUX: false,
+};
 
 export default About;

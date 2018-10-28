@@ -53,3 +53,7 @@
     opacity: 0;
   }
 }
+
+.work-description {
+  border: 15px solid;
+}
