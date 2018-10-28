@@ -16,10 +16,11 @@ const Work = () => (
     <div className="row mb-4">
       <div className="col-sm">
         <WorkItem
-          link="/cue/"
-          title="Cue Reminder"
-          subtitle="Information Architecture, Interaction Design, Visual Design"
-          image={cueImage}
+          link="/seahappyhours/"
+          title="SEA Happy Hours"
+          subtitle=""
+          image={SHHImage}
+          cover={false}
         />
       </div>
     </div>
@@ -39,12 +40,11 @@ const Work = () => (
     <div className="row mb-4">
       <div className="col-md-4 mb-4 mb-md-0">
         <WorkItem
-          link="/seahappyhours/"
-          title="SEA Happy Hours"
+          link="/emerald/"
+          title="Emerald Seattle"
           subtitle="Responsive Web App"
-          image={SHHImage}
+          image={emeraldImage}
           cover={false}
-          bgSize="78%"
         />
       </div>
       <div className="col-md-8">
@@ -65,8 +65,8 @@ const Work = () => (
       </div>
       <div className="row">
         <p className="col-sm text-center">
-          From business intelligence to local government, I thrive on learning
-          new industries and understand their users' needs
+          No matter the industry, I believe that fully understanding the user
+          builds empathy and ultimately, great products.
         </p>
       </div>
     </div>
@@ -74,19 +74,18 @@ const Work = () => (
     <div className="row">
       <div className="col-md-8 mb-4 mb-md-0">
         <WorkItem
-          link="/retrofit/"
-          title="Retrofit Home"
-          subtitle="E-Commerce"
-          image={retrofitImage}
-          cover={false}
+          link="/cue/"
+          title="Cue Reminder"
+          subtitle="Mobile App Redesign"
+          image={cueImage}
         />
       </div>
       <div className="col-md-4">
         <WorkItem
-          link="/emerald/"
-          title="Emerald Seattle"
-          subtitle="Seattle Government"
-          image={emeraldImage}
+          link="/retrofit/"
+          title="Retrofit Home"
+          subtitle="Information Architecture Improvements"
+          image={retrofitImage}
           cover={false}
         />
       </div>

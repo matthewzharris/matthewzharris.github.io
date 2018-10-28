@@ -53,9 +53,6 @@ const About = ({ hideUX }) => (
           <a href="https://www.linkedin.com/in/matthewzharris/" target="_blank">
             linkedin
           </a>
-          <a href="https://github.com/matthewzharris" target="_blank">
-            github
-          </a>
         </div>
       </div>
     </div>
