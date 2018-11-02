@@ -17,13 +17,13 @@ const Interests = () => (
       <div className="col-md text-center">
         <div className="mb-1">
           <span role="img" aria-label="Globe" style={{ fontSize: '40px' }}>
-            🌏
+            ✈️
           </span>
         </div>
         <h4>Travel Enthusiast</h4>
         <p>
-          I'm a dual Hungarian citizen and have been lucky enough to travel all
-          over Europe. Being exposed to other cultures has broadened my
+          I'm a dual Hungarian citizen and have been lucky enough to travel
+          extensively. Being exposed to other cultures has broadened my
           perspective and I hope to empower others to have that opportunity.
         </p>
       </div>
