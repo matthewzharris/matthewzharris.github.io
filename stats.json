@@ -102,6 +102,10 @@
       "commons-4d542e389f1870abac2a.js.map",
       "build-js-styles.css.map"
     ],
+    "component---src-pages-msft-js": [
+      "component---src-pages-msft-js-8cbef27095a39f2b7be5.js",
+      "component---src-pages-msft-js-8cbef27095a39f2b7be5.js.map"
+    ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
@@ -139,9 +143,9 @@
       "component---src-pages-seahappyhours-js-fe741dc09d42bb830d8c.js.map"
     ],
     "app": [
-      "app-6e3ce55deaeb863a2477.js",
+      "app-e6393b4dfa8a47172362.js",
       "build-js-styles.css",
-      "app-6e3ce55deaeb863a2477.js.map",
+      "app-e6393b4dfa8a47172362.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-knowledge-js": [
@@ -159,6 +163,10 @@
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---msft": [
+      "path---msft-a0e39f21c11f6a62c5ab.js",
+      "path---msft-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---emerald": [
       "path---emerald-a0e39f21c11f6a62c5ab.js",
