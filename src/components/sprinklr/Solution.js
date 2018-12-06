@@ -15,11 +15,12 @@ const Solution = () => (
   <Section shade={3} title="Solution">
     <SubSection title="Visual Design">
       <p>
-        For the Sprinklr brand, I created the visual design with a focus on a modern, clean interface that would allow the plants to be
-        the highlight of the app. In addition, I wanted to have some illustrative
-        elements and drawn icons to add brevity to the mobile app. I chose
-        the Futura typeface for headers which was inspired by the "Field Notes" brand notebooks
-        where a user interviewee stored their plant information.
+        For the Sprinklr brand, I created the visual design with a focus on a
+        modern, clean interface that would allow the plants to be the highlight
+        of the app. In addition, I wanted to have some illustrative elements and
+        drawn icons to add brevity to the mobile app. I chose the Futura
+        typeface for headers which was inspired by the "Field Notes" brand
+        notebooks where a user interviewee stored their plant information.
       </p>
       <Image src={styleguideImage} alt="Styleguide" />
     </SubSection>
@@ -28,7 +29,8 @@ const Solution = () => (
 
     <SubSection title="High Fidelity Wireframes">
       <p>
-        With the visual design standards complete, I applied the designs to the wireframes.
+        With the visual design standards complete, I applied the designs to the
+        wireframes.
       </p>
       <Image src={signInImage} alt="Sign In" />
       <p>
@@ -91,9 +93,6 @@ const Solution = () => (
         </li>
       </ul>
       <Image src={usabilityImage} alt="Usability" />
-    </SubSection>
-
-      />
     </SubSection>
   </Section>
 );

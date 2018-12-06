@@ -30,8 +30,7 @@ const Ideation = () => (
       </p>
       <Image alt="Initial Design" src={initialDesignImage} />
     </SubSection>
-
-    <hr />
+  </Section>
 );
 
 export default Ideation;
