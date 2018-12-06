@@ -10,93 +10,52 @@ import personaImage from '../../images/p2persona.jpg';
 
 const Research = () => (
   <Section shade={1} title="Research">
-    <SubSection title="Comparative Analysis">
+    <SubSection title="User Research">
       <p>
-        I performed business analysis of competitors in order to get a better
-        sense of where Retrofit fit in the home goods market.
+        I interviewed 5 people with varying plant care backgrounds to identify
+        common motifs of cultivating plants. The themes uncovered were:
       </p>
-      <p>From this research, I noted that their competitors all had:</p>
       <ul>
-        <li>Minimal design</li>
-        <li>Brand consistency</li>
-        <li>Mobile responsiveness</li>
-        <li>Good navigation</li>
-        <li>Listed all furniture online whether they had shipping or not</li>
+        <li>
+          People have trouble taking care of plants due differing watering
+          schedules and watering amounts
+        </li>
+        <li>
+          Existing methods of tracking plants (including note apps, calendar
+          apps or notebooks) aren't optimized
+        </li>
       </ul>
       <Image alt="Comparative Analysis" src={comparativeImage} />
-
+    </SubSection>
+    <SubSection title="Market Research">
       <p>
-        From a feature comparison among competitors, I noted that Retrofit Home
-        is lacking in a number of features. In the image below, I highlighted
-        features missing from Retrofit’s site including:
+        On the market, there are a couple of mobile apps that try and tackle
+        plant care including Florish and Gardenia. Based on the heuristics from
+        Susan Weinschenk and Dean Barker, I evaluated the applications and found
+        their primary issues in simplicity, flexibility, consistency, and
+        accuracy.
       </p>
-      <ol type="A">
-        <li>Search capabilities</li>
-        <li>User accounts</li>
-        <li>Product reviews</li>
-        <li>Large product photos</li>
-        <li>Detailed product descriptions</li>
-      </ol>
+      <p>
+        {' '}
+        Florish was a great example of a simple plant care app with beautiful
+        imagery, but there was clear room for improvement on a number of fronts:{' '}
+      </p>
       <Image alt="Heuristic" src={heuristicImage} />
-    </SubSection>
-
-    <hr />
-
-    <SubSection title="User Interviews">
       <p>
-        I interviewed 3 users about their habits of shopping online for home
-        goods in order to find common themes. Overall, they reported that they
-        typically made small online purchases throughout the year, which for
-        them, required a fluid browsing experience. Additionally, they reported
-        that while they only make large furniture purchases every few years and
-        they prefer to make those purchases in person after browsing a
-        retailer’s website.
+        Gardenia is an all encompassing plant care mobile app that allows the
+        user to set schedules for everything from watering to pruning plants.
+        Although comprehensive, there were a lot of things that needed to be
+        improved:
       </p>
-    </SubSection>
-
-    <SubSection title="Contextual Inquiries">
-      <p>
-        In order to look at issues with the current site, I had 4 users walk
-        through different tasks including browsing the site and making a
-        purchase on the site. The issues that came up were primarily around
-        navigation and the information architecture of the site. Below, I
-        highlighted the areas of the sitemap that users struggled with
-        including:
-      </p>
-      <ul>
-        <li>
-          Online shop is an uncategorized bucket of all their products making it
-          hard to find specific items
-        </li>
-        <li>
-          Shopping cart isn't persistent and doesn’t appear until products are
-          added
-        </li>
-        <li>Gallery is just a bunch of external links</li>
-        <li>
-          Lookbook seems unfinished and directs users to the online shop and
-          contact page
-        </li>
-        <li>
-          About Us page is featured in their primary navigation although rarely
-          visited
-        </li>
-        <li>Social media links are accessible only through the homepage</li>
-      </ul>
-      <Image alt="Sitemap Analysis" src={sitemapImage} />
+      <Image alt="Heuristic" src={heuristicImage} />
     </SubSection>
 
     <hr />
 
     <SubSection title="Persona">
       <p>
-        Based on the user research, I selected Lauren as the primary persona
-        based on her demographics, behaviors, and needs, which align with
-        Retrofit’s core customer. Lauren’s decision making process is focused on
-        flashy copywriting, product details, and large photos of products. She
-        needs reviews when shopping to be confident in what she is buying.
-        Finally, she wants a quick, efficient checkout process (even from
-        mobile) so that she can get her products fast.
+        From interviews, I created the persona Claire to encapsulate the users'
+        goals and frustrations about plant care.
       </p>
       <Image alt="Persona" src={personaImage} />
     </SubSection>

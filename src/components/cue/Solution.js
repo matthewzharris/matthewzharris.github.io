@@ -31,7 +31,7 @@ const Solution = () => (
 
     <SubSection title="High Fidelity Wireframes">
       <p>
-        With the style guide complete, I applied the designs to the the sign in
+        With the style guide complete, I applied the designs to the sign in
         process that our client wanted with the new branding.
       </p>
       <Image src={signInImage} alt="Sign In" />
