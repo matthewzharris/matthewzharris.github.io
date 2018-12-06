@@ -1,74 +1,99 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 import Section, { SubSection } from '../Section';
 import Image from '../Image';
 import Video from '../Video';
 
-import productReviewImage from '../../images/p2productreviewflow.jpg';
+import styleguideImage from '../../images/p4styleguide.jpg';
+import signInImage from '../../images/p4signin.jpg';
+import finalEventChatImage from '../../images/p4finaleventchatflow.jpg';
+import finalETAImage from '../../images/p4finaletaflow.jpg';
+import usabilityImage from '../../images/p4usabilityfindings.jpg';
+import deliverablesImage from '../../images/p4deliverables.jpg';
 
 const Solution = () => (
   <Section shade={3} title="Solution">
-    <SubSection title="Low Fidelity Wireframes">
+    <SubSection title="Visual Design">
       <p>
-        On the product page, I responded to Lauren’s pain points by featuring
-        large product images, detailed product descriptions and product
-        recommendations.
+        For the Sprinklr brand, I created the visual design with a focus on a modern, clean interface that would allow the plants to be
+        the highlight of the app. In addition, I wanted to have some illustrative
+        elements and drawn icons to add brevity to the mobile app. I chose
+        the Futura typeface for headers which was inspired by the "Field Notes" brand notebooks
+        where a user interviewee stored their plant information.
       </p>
-      <p>
-        The other major element I designed was the product review feature. The
-        product review flow begins on the product detail page where users were
-        able to click Write a Review (underlined to signify it's a clickable
-        hyperlink). After clicking, the product review modal opens right below,
-        where the user can enter a star rating, title, and a review for the
-        product. After clicking Post Review, the user would receive a message
-        letting them know that their review is added to the site.
-      </p>
-      <Image alt="Product Review" src={productReviewImage} />
-      <p>
-        In the checkout flow, Lauren would add a product to her cart and a modal
-        would slide down from the header notifying her that the item was added.
-        The option to checkout would be immediate and would be colored to draw
-        attention to the action. After clicking Checkout Now, she would be
-        brought to the shipping information page. The progress indicator would
-        help assure where she is in the process and action buttons would be
-        easily clickable for her. She would move to the updated payment page,
-        click Review & Confirm when she entered her payment details to finalize
-        the order.
-      </p>
-      <div className="text-center">
-        <Video
-          width="80%"
-          src="https://media.giphy.com/media/553ZAHDrfHa2BQnFGF/giphy.mp4"
-        />
-      </div>
+      <Image src={styleguideImage} alt="Styleguide" />
     </SubSection>
 
     <hr />
 
-    <SubSection title="Testing Results">
-      <p>From usability testing, the elements that needed work were:</p>
-      <p>Account functionality</p>
+    <SubSection title="High Fidelity Wireframes">
+      <p>
+        With the visual design standards complete, I applied the designs to the wireframes.
+      </p>
+      <Image src={signInImage} alt="Sign In" />
+      <p>
+        For the high fidelity prototype, I used the secondary blue color for any
+        clickable buttons and links throughout the app. In response to usability
+        testing, I used a History instead of an Archive icon and used a
+        notifications bell icon. In the third event screen, I added the See
+        Event action so that it was obvious that they were clickable. I also
+        included quick information about the event to help Jill get those
+        details quickly. In the final screen, I added feedback for the user that
+        the event has been created.
+      </p>
+      <div className="text-center">
+        <Video
+          width="30%"
+          playbackRate={3}
+          src="https://media.giphy.com/media/1ivFhqQkRuUykAenuv/giphy.mp4"
+        />
+      </div>
+
+      <p>
+        In the Event Chat flow, a user clicks “See Event” to navigate to the
+        specific event, where the user can accept events and chat with
+        attendees.
+      </p>
+      <Image src={finalEventChatImage} alt="Final Event Chat" />
+
+      <p>
+        For the Auto-ETA feature, users can update the length of time globally
+        in their Settings or turn it off locally per event in the Event Details
+        screen.
+      </p>
+      <Image src={finalETAImage} alt="Final ETA Flow" />
+    </SubSection>
+
+    <hr />
+
+    <SubSection title="Usability Findings">
+      <p>We received the following final usability test findings:</p>
       <ul>
         <li>
-          Providing a place for the password for the creation of account (helps
-          speed up future transactions)
+          <strong>Participants unable to invite attendees</strong> - I created a
+          toggle for event creators to allow participants to invite on the New
+          Event screen.
         </li>
         <li>
-          Order history for product reviews (allows users to quickly leave
-          product reviews)
+          <strong>Developer feedback</strong> - I created a clickable hyperlink
+          that would allow users to send app feedback.
+        </li>
+        <li>
+          <strong>
+            Unable to know who created event or see event attendance status
+          </strong>{' '}
+          - I updated the event cards to show users who created the event and
+          who accepted the event invite.
+        </li>
+        <li>
+          <strong>ETA language confusing</strong> - I updated the ETA language
+          on the toggle to be a straightforward for users.
         </li>
       </ul>
-      <p>Checkout process</p>
-      <ul>
-        <li>
-          Payment form needs address for users that have different address than
-          their shipping
-        </li>
-        <li>
-          Form feels slightly disjointed due to button placement (in the video
-          above, the buttons have been moved directly below the last form field)
-        </li>
-      </ul>
+      <Image src={usabilityImage} alt="Usability" />
+    </SubSection>
+
+      />
     </SubSection>
   </Section>
 );
