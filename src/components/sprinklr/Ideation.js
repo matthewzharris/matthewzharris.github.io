@@ -3,10 +3,7 @@ import React, { Fragment } from 'react';
 import Section, { SubSection } from '../Section';
 import Image from '../Image';
 
-import cardSortImage from '../../images/p2cardsort.jpg';
-import sitemapImage from '../../images/p2newsitemap.jpg';
 import initialDesignImage from '../../images/p2initialdesigns.jpg';
-import paperPrototypeImage from '../../images/p2paperproto.jpg';
 
 const Ideation = () => (
   <Section shade={2} title="Ideation">
@@ -18,7 +15,7 @@ const Ideation = () => (
         benefit to the user within a reasonable development timeframe. From that
         conversation, I generated the following feature prioritization:
       </p>
-      <Image alt="Feature Prioritization" src={prioritizationImage} />
+      <Image alt="Feature Prioritization" src={initialDesignImage} />
     </SubSection>
 
     <hr />
