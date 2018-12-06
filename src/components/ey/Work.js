@@ -32,7 +32,7 @@ const Work = () => (
       <div className="row">
         <p className="col-sm text-center">
           I design experiences that span devices and meet modern users where
-          they are—across devices and around the world.
+          they are—across devices and around the world
         </p>
       </div>
     </div>
@@ -68,7 +68,7 @@ const Work = () => (
       <div className="row">
         <p className="col-sm text-center">
           Using my diverse skill set, I engage my projects from a holistic view
-          of both business and design objectives.
+          of both business and design objectives
         </p>
       </div>
     </div>

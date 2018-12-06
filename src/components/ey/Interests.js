@@ -6,34 +6,32 @@ const Interests = () => (
       <div className="col-md text-center">
         <div className="mb-1">
           <span role="img" aria-label="Hospital" style={{ fontSize: '40px' }}>
-            👥
+            🏭
           </span>
         </div>
         <h4>Cross-Industry Research & Design</h4>
         <p>
-          In my career, I’ve led workshops with executives and managers across
-          industries to define user and business requirements for digital
-          products.
+          I’ve led workshops with executives and managers across industries to
+          define user and business requirements for digital products.
         </p>
       </div>
       <div className="col-md text-center">
         <div className="mb-1">
           <span role="img" aria-label="Memo" style={{ fontSize: '40px' }}>
-            🎬
+            😁
           </span>
         </div>
         <h4>UX Design</h4>
         <p>
           I’ve led end-to-end UX projects with multiple designers from research
-          to wireframing to final prototyping. At each stage of my process, I
-          utilize UX tools like persona, journey mapping, user flows and
-          interviews as necessary to design a final solution.
+          to prototyping using tools tools like persona creation, journey
+          mapping, user flows and interviews.
         </p>
       </div>
       <div className="col-md text-center">
         <div className="mb-1">
           <span role="img" aria-label="Book" style={{ fontSize: '40px' }}>
-            💡
+            👨‍💻
           </span>
         </div>
         <h4>Interest in emerging technology</h4>

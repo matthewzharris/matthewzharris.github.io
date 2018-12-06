@@ -16,23 +16,22 @@ const Work = () => (
     <div className="row mb-4">
       <div className="col-sm">
         <WorkItem
-          link="/seahappyhours/"
-          title="SEA Happy Hours"
-          subtitle=""
-          image={SHHImage}
-          cover={false}
+          link="/cue/"
+          title="Cue Reminder"
+          subtitle="Mobile App Redesign"
+          image={cueImage}
         />
       </div>
     </div>
 
-    <div className="work-description mb-4 pt-5 pb-1">
+    <div className="work-description mb-4 pt-5 pb-1 pr-1 pl-1">
       <div className="row">
-        <h3 className="col-sm text-center">Cross-Platform Design</h3>
+        <h3 className="col-sm text-center">Beautiful, Simple Visual Design</h3>
       </div>
       <div className="row">
         <p className="col-sm text-center">
-          I design experiences that span devices and meet modern users where
-          they are—across devices and around the world.
+          I temper innovative design with platform expectations to create
+          delightful, intuitive experiences
         </p>
       </div>
     </div>
@@ -40,10 +39,10 @@ const Work = () => (
     <div className="row mb-4">
       <div className="col-md-4 mb-4 mb-md-0">
         <WorkItem
-          link="/emerald/"
-          title="Emerald Seattle"
-          subtitle="Responsive Web App"
-          image={emeraldImage}
+          link="/seahappyhours/"
+          title="SEA Happy Hours"
+          subtitle=""
+          image={SHHImage}
           cover={false}
         />
       </div>
@@ -66,7 +65,7 @@ const Work = () => (
       <div className="row">
         <p className="col-sm text-center">
           Even after delivery, a design solution is never truly finished as user
-          needs and behaviors change.
+          needs and behaviors change
         </p>
       </div>
     </div>
@@ -74,10 +73,11 @@ const Work = () => (
     <div className="row">
       <div className="col-md-8 mb-4 mb-md-0">
         <WorkItem
-          link="/cue/"
-          title="Cue Reminder"
-          subtitle="Mobile App Redesign"
-          image={cueImage}
+          link="/emerald/"
+          title="Emerald Seattle"
+          subtitle="Responsive Web App"
+          image={emeraldImage}
+          cover={false}
         />
       </div>
       <div className="col-md-4">
