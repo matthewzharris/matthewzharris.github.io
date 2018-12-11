@@ -17,21 +17,24 @@ const Research = () => (
       </p>
       <ul>
         <li>
-          People have trouble taking care of plants due differing watering
+          People have trouble taking care of plants due to differing watering
           schedules and watering amounts
         </li>
         <li>
           Existing methods of tracking plants (including note apps, calendar
-          apps or notebooks) aren't optimized
+          apps or notebooks) aren't optimized for this use case
         </li>
       </ul>
     </SubSection>
     <SubSection title="Market Research">
       <p>
-        On the market, there are a couple of mobile apps that try and tackle
-        plant care including Florish and Gardenia. Based on the heuristics from
-        Susan Weinschenk and Dean Barker, I evaluated the apps and found their
-        primary issues in simplicity, flexibility, consistency, and accuracy.
+        On the market, there are a couple of mobile apps that try to tackle
+        plant care including Florish and Gardenia. Based on the{' '}
+        <a href="https://measuringu.com/he-cw/" target="_blank">
+          heuristics from Susan Weinschenk and Dean Barker
+        </a>
+        , I evaluated the apps and found their primary issues in simplicity,
+        flexibility, consistency, and accuracy.
       </p>
       <p>
         {' '}
@@ -42,8 +45,7 @@ const Research = () => (
       <p>
         Gardenia is an all encompassing plant care mobile app that allows the
         user to set schedules for everything from watering to pruning plants.
-        Although comprehensive, there were a lot of things that needed to be
-        improved:
+        Although comprehensive, there were many things that could be improved:
       </p>
       <Image alt="Gardenia Heuristic Evaluation" src={gardeniaImage} />
     </SubSection>
