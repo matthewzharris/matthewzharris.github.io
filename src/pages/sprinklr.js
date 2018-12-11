@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import Helmet from 'react-helmet';
 
 import Hero from '../components/Hero';
-import sprinklrImage from '../images/emerald.jpg';
+import sprinklrImage from '../images/sprinklrhero.jpg';
 import emeraldImage from '../images/emerald.jpg';
 import Overview from '../components/Overview';
 import Section from '../components/Section';
