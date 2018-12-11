@@ -6,7 +6,7 @@ const Interests = () => (
       <div className="col-md text-center">
         <div className="mb-1">
           <span role="img" aria-label="Hospital" style={{ fontSize: '40px' }}>
-            👥
+            💼
           </span>
         </div>
         <h4>Enterprise Software</h4>
@@ -19,7 +19,7 @@ const Interests = () => (
       <div className="col-md text-center">
         <div className="mb-1">
           <span role="img" aria-label="Memo" style={{ fontSize: '40px' }}>
-            🎬
+            😁
           </span>
         </div>
         <h4>End to End UX Experience</h4>

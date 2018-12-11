@@ -6,41 +6,37 @@ const Interests = () => (
       <div className="col-md text-center">
         <div className="mb-1">
           <span role="img" aria-label="Hospital" style={{ fontSize: '40px' }}>
-            📈
+            😄
           </span>
         </div>
-        <h4>Business Analytics</h4>
+        <h4>End to End UX Experience</h4>
         <p>
-          Having worked in technology consulting on analytics products, I am
-          intimately familiar with the pain points of analytics software tools
-          and have a personal goal to make them just as simple and beautiful as
-          consumer products.
+          From research to wireframing to prototyping, I have full end-to-end UX
+          project experience in delivering successful user-centered designs.
         </p>
       </div>
       <div className="col-md text-center">
         <div className="mb-1">
           <span role="img" aria-label="Memo" style={{ fontSize: '40px' }}>
-            🚀
+            📖
           </span>
         </div>
-        <h4>Passion for the Mission</h4>
+        <h4>Design Narrative</h4>
         <p>
-          As a UX designer with a background in business, I’m truly excited
-          about Mixpanel’s mission to deliver user insights to companies in
-          order to help them improve user experience.
+          My strength lies in communicating design, advocating for users while
+          framing it in terms of broader business goals.
         </p>
       </div>
       <div className="col-md text-center">
         <div className="mb-1">
           <span role="img" aria-label="Memo" style={{ fontSize: '40px' }}>
-            📝
+            💰
           </span>
         </div>
-        <h4>Product Strategy</h4>
+        <h4>Project Funding</h4>
         <p>
-          I have a unique end-to-end perspective on designing software products.
-          I thrive on collaborating across disciplines to ensure the best
-          product outcome possible.
+          In my career, I’ve worked with private industry as well as the federal
+          government on products to help understand funding for projects.
         </p>
       </div>
     </div>
