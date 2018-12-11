@@ -3,10 +3,10 @@ import React from 'react';
 import Section, { SubSection } from '../Section';
 import Image from '../Image';
 
-import comparativeImage from '../../images/p2busanalysis.jpg';
-import heuristicImage from '../../images/p2heuristics.jpg';
+import florishImage from '../../images/FlorishMarketResearch.jpg';
+import gardeniaImage from '../../images/GardeniaMarketResearch.jpg';
 import sitemapImage from '../../images/p2initialsitemap.jpg';
-import personaImage from '../../images/p2persona.jpg';
+import personaImage from '../../images/sprinklrpersona.jpg';
 
 const Research = () => (
   <Section shade={1} title="Research">
@@ -25,29 +25,27 @@ const Research = () => (
           apps or notebooks) aren't optimized
         </li>
       </ul>
-      <Image alt="Comparative Analysis" src={comparativeImage} />
     </SubSection>
     <SubSection title="Market Research">
       <p>
         On the market, there are a couple of mobile apps that try and tackle
         plant care including Florish and Gardenia. Based on the heuristics from
-        Susan Weinschenk and Dean Barker, I evaluated the applications and found
-        their primary issues in simplicity, flexibility, consistency, and
-        accuracy.
+        Susan Weinschenk and Dean Barker, I evaluated the apps and found their
+        primary issues in simplicity, flexibility, consistency, and accuracy.
       </p>
       <p>
         {' '}
         Florish was a great example of a simple plant care app with beautiful
         imagery, but there was clear room for improvement on a number of fronts:{' '}
       </p>
-      <Image alt="Heuristic" src={heuristicImage} />
+      <Image alt="Florish Heuristic Evalation" src={florishImage} />
       <p>
         Gardenia is an all encompassing plant care mobile app that allows the
         user to set schedules for everything from watering to pruning plants.
         Although comprehensive, there were a lot of things that needed to be
         improved:
       </p>
-      <Image alt="Heuristic" src={heuristicImage} />
+      <Image alt="Gardenia Heuristic Evaluation" src={gardeniaImage} />
     </SubSection>
 
     <hr />

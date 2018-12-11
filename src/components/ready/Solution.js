@@ -101,8 +101,8 @@ const Solution = () => (
       </p>
       <div className="text-center">
         <Video
-          width="30%"
-          src="https://media.giphy.com/media/55ocWdRjmf1OO2PlAd/giphy.mp4"
+          width="100%"
+          src="https://www.dropbox.com/s/ybl2s62irh07cj6/FinalGoBagFlow.mp4?raw=1"
         />
       </div>
       <p>
