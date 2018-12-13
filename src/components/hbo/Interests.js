@@ -6,18 +6,20 @@ const Interests = () => (
       <div className="col-md text-center">
         <div className="mb-1">
           <span role="img" aria-label="Hospital" style={{ fontSize: '40px' }}>
-            😄
+            🕵️
           </span>
         </div>
-        <h4>End to End UX Experience</h4>
+        <h4>Research-Driven</h4>
         <p>
-          From research to wireframing to prototyping, I have full end-to-end UX
-          project experience in delivering successful user-centered designs.
+          No matter the platform or product, I believe that complete immersion
+          to understand the user creates optimal products. On my UX projects,
+          I’ve led user interviews and contextual inquiries to help gain
+          insights for the design of solutions.
         </p>
       </div>
       <div className="col-md text-center">
         <div className="mb-1">
-          <span role="img" aria-label="Memo" style={{ fontSize: '40px' }}>
+          <span role="img" aria-label="Book" style={{ fontSize: '40px' }}>
             📖
           </span>
         </div>
@@ -30,14 +32,14 @@ const Interests = () => (
       <div className="col-md text-center">
         <div className="mb-1">
           <span role="img" aria-label="Memo" style={{ fontSize: '40px' }}>
-            💰
+            🎬
           </span>
         </div>
-        <h4>Project Funding</h4>
+        <h4>Bias for Action</h4>
         <p>
-          I’ve worked with private industry and the federal government to help
-          understand funding for projects-experience I'd love to apply to Snap's
-          suite of products.
+          As a designer with a background in business, I’m inclined to stand up
+          and take action in any team. I believe that action delivers results
+          and iteration on those results helps create success.
         </p>
       </div>
     </div>

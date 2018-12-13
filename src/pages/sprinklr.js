@@ -23,15 +23,14 @@ const Sprinklr = () => (
       </p>
     </Hero>
     <Overview
-      brief="During the summer wildfires in Washington state, I became concerned for me and my dog that the indoor air quality was no longer safe. Instead of buying an air purifier, I wanted to know if I could find plants that would help clean indoor air year round. The major issue that I found was my black thumb; I’ve always had issues picking plants and keeping them alive. I wanted to explore the issue of starting to grow plants and make it easier for beginner gardeners.
-      "
+      brief="During the summer wildfires in Washington state, I became concerned for my family and puppy that the indoor air quality was no longer safe. Instead of buying an air purifier, I wanted to know if I could find plants that would help clean indoor air year round. The major issue that I found was my black thumb; I’ve always had issues picking plants and keeping them alive. I wanted to explore the issue of starting to grow plants and make it easier for beginner gardeners."
       client=""
       tools="Sketch, Omnigraffle, Invision, Principle"
       deliverables="Working mobile app"
       team="1 UX Designer, 1 Developer"
       impact=""
-      problem="Starting a plant collection is incredibly daunting due to all the requirements to keep plants alive"
-      goal="Create a mobile app that allows anyone to help keep track of their plants and their watering schedules"
+      problem="Starting a plant collection is daunting due to all the requirements to keep plants alive"
+      goal="Create a mobile app that allows anyone to keep track of their plants and their watering schedules"
     />
 
     <Research />

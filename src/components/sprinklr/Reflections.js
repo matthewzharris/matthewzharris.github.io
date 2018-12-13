@@ -12,15 +12,11 @@ const Reflections = () => (
         <h3>Next Steps</h3>
         <ul>
           <li>
-            Continue to work with software engineers to develop and iterate
+            Continue to work with software engineers to develop and iterate on
             designs
           </li>
           <li>Continue usability testing</li>
         </ul>
-      </div>
-
-      <div className="col-sm">
-        <h3>What I Learned</h3>
       </div>
     </div>
   </Section>

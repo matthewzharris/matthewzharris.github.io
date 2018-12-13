@@ -5,7 +5,7 @@ import WorkItem from '../components/WorkItem';
 import cueImage from '../images/cue.jpg';
 import readyImage from '../images/P3HeroFinal.jpg';
 import retrofitImage from '../images/P2HeroFinal.jpg';
-import emeraldImage from '../images/emerald.jpg';
+import sprinklrImage from '../images/sprinklrhero.jpg';
 import SHHImage from '../images/SHHhero2.jpg';
 
 const Work = () => (
@@ -26,25 +26,13 @@ const Work = () => (
     <div className="row mb-4">
       <div className="col-md-4 mb-4 mb-md-0">
         <WorkItem
-          link="/seahappyhours/"
-          title="SEA Happy Hours"
+          link="/sprinklr/"
+          title="Sprinklr"
           subtitle="UX Design"
-          image={SHHImage}
-          cover={false}
+          image={sprinklrImage}
         />
       </div>
       <div className="col-md-8">
-        <WorkItem
-          link="/ready/"
-          title="ReadySeattle"
-          subtitle="Information Architecture, Visual Design, Project Management"
-          image={readyImage}
-          cover={false}
-        />
-      </div>
-    </div>
-    <div className="row">
-      <div className="col-md-8 mb-4 mb-md-0">
         <WorkItem
           link="/retrofit/"
           title="Retrofit Home"
@@ -53,12 +41,23 @@ const Work = () => (
           cover={false}
         />
       </div>
+    </div>
+    <div className="row">
+      <div className="col-md-8 mb-4 mb-md-0">
+        <WorkItem
+          link="/ready/"
+          title="ReadySeattle"
+          subtitle="Information Architecture, Visual Design, Project Management"
+          image={readyImage}
+          cover={false}
+        />
+      </div>
       <div className="col-md-4">
         <WorkItem
-          link="/emerald/"
-          title="Emerald Seattle"
-          subtitle="Interaction Design, Visual Design, Project Management"
-          image={emeraldImage}
+          link="/seahappyhours/"
+          title="SEA Happy Hours"
+          subtitle="UX Design"
+          image={SHHImage}
           cover={false}
         />
       </div>

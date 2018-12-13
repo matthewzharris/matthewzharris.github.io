@@ -26,8 +26,8 @@ const Ideation = () => (
 
     <SubSection title="User Flows">
       <p>
-        After prioritzing features, I started by walking through the major flows
-        that a user would walk through in the app.
+        After prioritizing features, I started on the major flows that a user
+        would walk through in the app.
       </p>
       <Image alt="Add Plant User Flow" src={addPlantImage} />
       <Image alt="Mark as Watered User Flow" src={waterplantImage} />
