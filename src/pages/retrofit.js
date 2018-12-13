@@ -29,7 +29,7 @@ const Retrofit = () => (
     <Overview
       brief="Local retailer Retrofit Home is looking to redesign their website to improve the user experience from homepage to checkout and increase their sales both in store and online."
       client="Retrofit Home"
-      tools="Pen & Paper, Sketch, Omnigraffle, Keynote"
+      tools="Sketch, Omnigraffle, Keynote"
       deliverables="Interactive Wireframe Prototype, Sitemap"
       team="None"
       impact=""

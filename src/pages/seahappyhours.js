@@ -27,7 +27,7 @@ const SEAHappyHours = () => (
     </Hero>
     <Overview
       brief="I’ve always been interested in the connection of people in physical spaces in our increasingly digital world. The ability to foster relationships in public meeting spaces is ever changing, which is why I’m fascinated with companies like Meetup. With this idea, I wanted to create a product that could help facilitate those personal connections in physical spaces."
-      tools="Pen & Paper, Whiteboard, Omnigraffle, Sketch, Invision"
+      tools="Omnigraffle, Sketch, Invision"
       deliverables="Working website"
       team="1 UX Designer, 1 Software Engineer"
       impact="During this project, I was the sole UX Designer focused on all aspects of the user experience and product strategy. This included a particular focus on the information architecture, interaction design, and visual design of the website."

@@ -26,7 +26,7 @@ const Cue = () => (
     <Overview
       brief="B Tech Global wanted to refine the user experience and vision of their app, Cue, which was created to schedule events."
       client="B Tech Global"
-      tools="Pen & Paper, Sketch, Omnigraffle, Keynote"
+      tools="Sketch, Omnigraffle, Invision, Principle"
       deliverables="Interactive Final Prototype, Redlines, Annotations, Presentation"
       team="2 Designers"
       impact="During this client project, I was the lead on information architecture, interaction design and visual design. I led the business analysis research in terms of heuristic analysis of the current product, comparative analysis, and feature comparison in the market. I led the initial sketches, led a design studio, developed the current and future state sitemaps, user flows, low and high fidelity prototypes. I also redesigned the Cue branding for the project."
