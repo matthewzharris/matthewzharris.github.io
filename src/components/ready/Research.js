@@ -13,15 +13,13 @@ const Research = () => (
   <Section shade={1} title="Research">
     <SubSection title="Current Sitemap">
       <p>
-        I evaluated the current website in order to determine what information
-        would be pertinent for our app. I created the sitemap of the current
-        website to understand how Seattle Emergency Management organizes their
-        content and how they lay out information to the user. The information on
-        the site was very dense and split into many different categories based
-        on whether the user was an individual, school official, or business
-        owner. The amount of information was pretty overwhelming so I decided to
-        focus on the preparing individual section since the app would be for
-        Seattle residents' personal usage.
+        I created a sitemap of the current Seattle Emergency Management website
+        to evaluate how information was organized and being presented to the
+        user. The information on the site was overwhelming and split into many
+        different categories based on whether the user was an individual, school
+        official, or business owner. In order to scope the project, I decided
+        that the app design would focus on preparing individuals section since
+        the app would be for Seattle residents' personal usage.
       </p>
       <Image alt="Current Site Map" src={siteMapImage} />
     </SubSection>
@@ -31,15 +29,17 @@ const Research = () => (
     <SubSection title="Comparative Analysis">
       <p>
         I lead the comparative analysis of disaster prep apps in the market to
-        review potential features for the app. Although FEMA and Red Cross had
-        the most to offer to a user, they were incredibly bloated in features
-        and made preparing for an emergency a daunting task. Ready NYC was a
-        better example of helping a city’s residents get prepared and provide
-        information during an emergency, but it only provided information for
-        NYC and had some design issues.
+        research potential features for the app. Although FEMA and Red Cross had
+        the most to offer to a user, the amount of information and features made
+        users feel like preparing for diasters would be a daunting task. Ready
+        NYC was the best example of helping a city’s residents get prepared and
+        provide information during an emergency.
       </p>
       <Image src={comparativeImage} alt="Comparative Analysis" />
-      <p>From this analysis, the important features found were:</p>
+      <p>
+        From this analysis, the important features for a disaster preparedness
+        app were:
+      </p>
       <ul>
         <li>Alerts</li>
         <li>Emergency material checklist</li>
@@ -53,14 +53,17 @@ const Research = () => (
 
     <SubSection title="Heuristic Analysis">
       <p>
-        I did a full heuristic evaluation on Ready NYC because it was the best
-        representation of a citywide emergency preparedness mobile app. I found
-        that the app was strong in facilitating user tasks, great readability
-        and information architecture. The app struggled with unclear labeling
-        and inconsistent design.
+        <a
+          href="http://boxesandarrows.com/competitive-analysis-understanding-the-market-context/"
+          target="_blank"
+        >
+          Based on the heuristics from UX journal Boxes and Arrows
+        </a>
+        , I performed a full heuristic evaluation on Ready NYC because it was
+        the best representation of a citywide emergency preparedness mobile app.
       </p>
       <Image alt="Heuristic Analysis" src={heuristicImage} />
-      <p>The app was excelled in:</p>
+      <p>Ready NYC excelled in:</p>
       <ul>
         <li>Organizational Clarity</li>
         <li>Supporting Readability</li>
@@ -78,11 +81,11 @@ const Research = () => (
     <SubSection title="User Research">
       <p>
         Our researcher interviewed 5 Seattle residents about natural disasters.
-        We then pulled quotes from the interviews and created an affinity
-        diagram so that we could uncover some common themes and pain points.
+        I then pulled quotes from the interviews and created an affinity diagram
+        so that we could uncover some common themes and pain points.
       </p>
       <Image src={userResearchImage} alt="User Research" />
-      <p>From the research the common issues were:</p>
+      <p>From the generative research the common issues were:</p>
       <ul>
         <li>Very little disaster education typically in early schooling</li>
         <li>The plan for emergencies is to just “Google it”</li>
@@ -95,13 +98,12 @@ const Research = () => (
 
     <SubSection title="Persona">
       <p>
-        From our interviews and research, we created the Jake Anderson persona
-        that we would design the new Seattle Emergency Management mobile app
-        for. Jake embodied a lot of the feelings that people we interviewed had
-        about emergency preparedness. He had heard that there may be a major
-        natural disaster in Seattle (especially an earthquake), but hadn't
+        Based on the user inteviews, we created the Jake Anderson persona that
+        we would respond to in our design for the new Seattle Emergency
+        Management mobile app. In the persona, Jake had heard that there will be
+        a major natural disaster in Seattle (likely an earthquake), but hadn't
         experienced any disaster himself. He knows he needs to prepare but is
-        unsure of how to do so and thinks it is a daunting task.
+        intimidated by the task.
       </p>
       <Image src={personaImage} alt="Persona" />
     </SubSection>

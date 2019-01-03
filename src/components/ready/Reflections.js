@@ -21,12 +21,12 @@ const Reflections = () => (
         <ul>
           <li>
             Communication across team members is mission critical. Any insight
-            lost from researcher to final visual designer is a lost opportunity
-            to respond to users.
+            lost from researcher to final designer is a lost opportunity to
+            respond to user needs.
           </li>
           <li>
-            Gathering initial user research from differing demographics is
-            crucial because those things will influence your persona and final
+            Gathering initial user research from users of differing demographics
+            is crucial because their backgrounds influence your insights and
             design.
           </li>
           <li>

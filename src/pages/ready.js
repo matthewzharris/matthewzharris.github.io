@@ -27,10 +27,10 @@ const Ready = () => (
     <Overview
       brief="Seattle Emergency Management was seeking our help to create a mobile app that will help bring the information from their website into the phones of Seattle residents."
       client="Seattle Emergency Management"
-      tools="Pen & Paper, Omnigraffle, Sketch, Keynote"
+      tools="Sketch, Omnigraffle, Invision, Principle"
       deliverables="Interactive High Fidelity Prototype, Sitemap, Project Plan, Presentation"
       team="3 UX Designers"
-      impact="During this concept project, I was lead in information architecture and visual design as well as the project manager of our UX design team. I did the business research of the project through a comparative analysis of features in the disaster app market and a heuristic analysis of top apps. I created the current sitemap and mobile sitemap, hi fidelity prototypes, and the Ready Seattle branding. I also created and lead the presentation of design solutions."
+      impact="During this project, I focused on the information architecture and visual design. I lead the business research of the project through a comparative analysis of features and heuristic evaluations of top disaster apps. I developed the architecture of the mobile app as well as the Ready Seattle branding. I was responsible for creating the wireframes and interactive high fidelity prototype based on the researcher’s findings and usability test results. In addition to my role as a designer, I was also the project manager of the design team to ensure the project was delivered within scope and on time."
       problem="Seattle’s millennials don’t consider being prepared for a natural disaster an important or easily actionable problem"
       goal="To make a mobile app that simplifies disaster preparation and disaster information in order to increase the readiness of Seattle residents by 6% (as defined by FEMA's emergency preparedness profiles)"
       designImage={designImage}

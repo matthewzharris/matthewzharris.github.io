@@ -8,6 +8,7 @@ import initialDesignImage from '../../images/p3initialdesign.jpg';
 import prototypeImage from '../../images/p3paper.jpg';
 import lowFidelityImage from '../../images/p3designstudio.jpg';
 import lowFidelityImage2 from '../../images/p3lowfi.jpeg';
+import backpackAnimation from '../../images/Bagfill.gif';
 
 const Ideation = () => (
   <Section shade={2} title="Ideation">
@@ -24,14 +25,13 @@ const Ideation = () => (
     <SubSection title="Initial Design">
       <p>
         After researching, we came up with 5 main screens that best fit our
-        persona needs and our client’s needs. In order to help Jake learn about
-        natural disaster safety, we would have an alerts page, emergency
-        information page and a map of disasters and shelters. In order to help
-        Jake prepare for a disaster, we created an emergency go bag checklist. I
-        created a sitemap in order to organize the information that would be
+        persona needs and our client’s needs including an alerts page, emergency
+        information page, and a map of disasters/shelters. In order to help
+        users prepare for a disaster, we created an emergency go bag checklist.
+        I created a sitemap in order to organize the information that would be
         included in the app.
       </p>
-      <Image alt="Initial Design" src={initialDesignImage} />
+      <Image alt="Initial Design" src={initialDesignImage} width="70%" />
     </SubSection>
 
     <hr />
@@ -53,15 +53,16 @@ const Ideation = () => (
 
     <SubSection title="Low Fidelity Wireframes">
       <p>
-        In a design studio, we developed a new Go Bag screen with a visual that
+        In a design studio, I sketched a new Go Bag screen with a visual that
         would show what items have been added and what percentage the user has
         collected.
       </p>
+      <Image alt="Design Studio" src={lowFidelityImage} />
       <p>
-        We wanted to focus on the user motivation for completing tasks by giving
+        I wanted to focus on the user motivation for completing tasks by giving
         them a success metric and indicating their progress.
       </p>
-      <Image alt="Design Studio" src={lowFidelityImage} />
+      <Image alt="Animation" src={backpackAnimation} />
       <p>
         After paper prototypes and design studio, our interaction designer
         created clickable wireframes.
