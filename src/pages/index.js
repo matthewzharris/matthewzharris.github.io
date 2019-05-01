@@ -17,7 +17,7 @@ export default class IndexPage extends Component {
       <div>
         <Hero title="matt harris">
           <p>
-            UX Designer @ <a href="https://hazelanalytics.com/" target="_blank">Hazel Analytics</a> and <a href="https://globespinning.com/" target="_blank">Globespinning</a>
+            UX Designer @ <a href="https://www.newengen.com/" target="_blank">New Engen</a>
           </p>
         </Hero>
         <Work />
