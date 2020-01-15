@@ -21,8 +21,8 @@
       "path---ey-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-8e843ecac027833c430c.js",
-      "component---src-pages-index-js-8e843ecac027833c430c.js.map"
+      "component---src-pages-index-js-54475b3165fe00f6374f.js",
+      "component---src-pages-index-js-54475b3165fe00f6374f.js.map"
     ],
     "path---sprinklr": [
       "path---sprinklr-a0e39f21c11f6a62c5ab.js",
@@ -80,6 +80,10 @@
       "path---alaska-a0e39f21c11f6a62c5ab.js",
       "path---alaska-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "component---src-pages-globespinning-js": [
+      "component---src-pages-globespinning-js-fa61757d24da2a009d00.js",
+      "component---src-pages-globespinning-js-fa61757d24da2a009d00.js.map"
+    ],
     "component---src-pages-premera-js": [
       "component---src-pages-premera-js-50f5b0d2e7839713933a.js",
       "component---src-pages-premera-js-50f5b0d2e7839713933a.js.map"
@@ -89,8 +93,8 @@
       "path---mixpanel-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-8a9e54ae09a5d020aef7.js",
-      "component---src-layouts-index-js-8a9e54ae09a5d020aef7.js.map"
+      "component---src-layouts-index-js-9e7fa85dab2de540b37d.js",
+      "component---src-layouts-index-js-9e7fa85dab2de540b37d.js.map"
     ],
     "component---src-pages-sap-js": [
       "component---src-pages-sap-js-8eb8bf0b0d711e1a383b.js",
@@ -190,10 +194,14 @@
       "component---src-pages-seahappyhours-js-05109bbd227286b168f1.js",
       "component---src-pages-seahappyhours-js-05109bbd227286b168f1.js.map"
     ],
+    "path---globespinning": [
+      "path---globespinning-a0e39f21c11f6a62c5ab.js",
+      "path---globespinning-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "app": [
-      "app-389635e773ec60aa2801.js",
+      "app-4559b1dbe7c35e634cc6.js",
       "build-js-styles.css",
-      "app-389635e773ec60aa2801.js.map",
+      "app-4559b1dbe7c35e634cc6.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-knowledge-js": [
@@ -201,8 +209,8 @@
       "component---src-pages-knowledge-js-f442e945d79692e59050.js.map"
     ],
     "component---src-pages-hazel-js": [
-      "component---src-pages-hazel-js-87db4ce0f42dcceb7a5f.js",
-      "component---src-pages-hazel-js-87db4ce0f42dcceb7a5f.js.map"
+      "component---src-pages-hazel-js-30c38d815c074303537c.js",
+      "component---src-pages-hazel-js-30c38d815c074303537c.js.map"
     ],
     "path---seahappyhours": [
       "path---seahappyhours-a0e39f21c11f6a62c5ab.js",
