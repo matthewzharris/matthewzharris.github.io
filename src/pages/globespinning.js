@@ -2,15 +2,15 @@ import React, { Fragment } from 'react';
 import Helmet from 'react-helmet';
 
 import Hero from '../components/Hero';
-import HazelImage from '../images/hazel.jpg';
+import GlobespinningImage from '../images/globespinning.jpg';
 
 const Hazel = () => (
   <Fragment>
-    <Helmet title="Hazel Analytics | matt harris" />
+    <Helmet title="Globespinning | matt harris" />
     <Hero
-      title="Hazel Analytics"
-      image={HazelImage}
-      imageAlt="Hazel Analytics Logo"
+      title="Globespinning"
+      image={GlobespinningImage}
+      imageAlt="Globespinning Logo"
     >
       <p>
         Coming Soon

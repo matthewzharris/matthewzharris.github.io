@@ -4,9 +4,9 @@ import WorkItem from '../components/WorkItem';
 
 import cueImage from '../images/cue.jpg';
 import readyImage from '../images/P3HeroFinal.jpg';
-import retrofitImage from '../images/P2HeroFinal.jpg';
-import sprinklrImage from '../images/sprinklrhero.jpg';
 import SHHImage from '../images/SHHhero2.jpg';
+import GlobespinningImage from '../images/globespinning.jpg';
+import HazelImage from '../images/hazel.jpg';
 
 const Work = () => (
   <section className="container mb-5 pb-5" id="work">
@@ -26,19 +26,18 @@ const Work = () => (
     <div className="row mb-4">
       <div className="col-md-4 mb-4 mb-md-0">
         <WorkItem
-          link="/sprinklr/"
-          title="Sprinklr"
-          subtitle="UX Design"
-          image={sprinklrImage}
+          link="/globespinning/"
+          title="Globespinning"
+          subtitle="Coming Soon"
+          image={GlobespinningImage}
         />
       </div>
       <div className="col-md-8">
         <WorkItem
-          link="/retrofit/"
-          title="Retrofit Home"
-          subtitle="User Research, Information Architecture, Interaction Design"
-          image={retrofitImage}
-          cover={false}
+          link="/hazel/"
+          title="Hazel Analytics"
+          subtitle="Coming Soon"
+          image={HazelImage}
         />
       </div>
     </div>
