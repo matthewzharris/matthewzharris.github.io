@@ -7,7 +7,14 @@ import Video from '../Video';
 
 const Solution = () => (
   <Section shade={3} title="Solution">
-    <SubSection title="Prototype" />
+    <SubSection title="Prototype" >
+      <div className="text-center">
+        <Video
+          width="100%"
+          src="https://www.dropbox.com/s/8j1mz08duyho784/HazelPrototypeV1.mp4?raw=1"
+        />
+      </div>
+    </SubSection>
 
     <SubSection title="Usability Testing">
       <p>

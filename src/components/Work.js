@@ -14,21 +14,11 @@ const Work = () => (
       <h2 className="col-sm">Work</h2>
     </div>
     <div className="row mb-4">
-      <div className="col-sm">
-        <WorkItem
-          link="/cue/"
-          title="Cue Reminder"
-          subtitle="Information Architecture, Interaction Design, Visual Design"
-          image={cueImage}
-        />
-      </div>
-    </div>
-    <div className="row mb-4">
       <div className="col-md-4 mb-4 mb-md-0">
         <WorkItem
           link="/globespinning/"
           title="Globespinning"
-          subtitle="Coming Soon"
+          subtitle="Mobile app redesign"
           image={GlobespinningImage}
         />
       </div>
@@ -36,8 +26,18 @@ const Work = () => (
         <WorkItem
           link="/hazel/"
           title="Hazel Analytics"
-          subtitle="Coming Soon"
+          subtitle="Web app redesign"
           image={HazelImage}
+        />
+      </div>
+    </div>
+    <div className="row mb-4">
+      <div className="col-sm">
+        <WorkItem
+          link="/cue/"
+          title="Cue Reminder"
+          subtitle="Information Architecture, Interaction Design, Visual Design"
+          image={cueImage}
         />
       </div>
     </div>
