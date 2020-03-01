@@ -22,19 +22,19 @@ const Globespinning = () => (
       imageAlt="Globespinning Logo"
     >
       <p>
-        TODO
+        Share your trip itineraries with friends and discover your next vacation
       </p>
     </Hero>
 
     <Overview
-      brief="TODO"
-      client="TODO"
-      tools="TODO"
-      deliverables="TODO"
+      brief="Redesign the Globespinning mobile app & website"
+      client="Globespinning"
+      tools="Notion, Sketch, Powerpoint"
+      deliverables="Mobile & Web Mockups, Prototype, Investor Deck"
       team="TODO"
-      impact="TODO"
-      problem="TODO"
-      goal="TODO"
+      impact="On this project, I worked closely with the founders to conceptualize the future of their mobile and web app. After defining the scope of the redesign, I planned the project delivery in conjunction with their business goals. I worked on the full redesign and a remote engineering team to implement my design."
+      problem="The app suffered from dated design, complex user flows, and unintuitive interactions."
+      goal="Streamline the app with focused flows and thoughtful interactions as well as updated visual design."
     />
 
     <Research />

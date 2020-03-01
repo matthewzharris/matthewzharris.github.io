@@ -10,20 +10,7 @@ const Reflections = () => (
     <div className="row mb-4">
       <div className="col-sm">
         <h3>Next Steps</h3>
-        <ul>
-          <li>
-            Optimize the website for mobile since Lauren loves shopping on her
-            phone
-          </li>
-          <li>
-            Research any secondary personas that fit Retrofit target users
-          </li>
-          <li>
-            Implement my visual design (started below) for a high fidelity
-            prototype
-          </li>
-        </ul>
-        <Image alt="Branding" src={brandingImage} />
+        <p>The redesign is currently in development.</p>
       </div>
       <div className="col-sm">
         <h3>What I Learned</h3>

@@ -31,7 +31,7 @@ const Cue = () => (
       team="2 Designers"
       impact="During this client project, I was the lead on information architecture, interaction design and visual design. I led the business analysis research in terms of heuristic analysis of the current product, comparative analysis, and feature comparison in the market. I led the initial sketches, led a design studio, developed the current and future state sitemaps, user flows, low and high fidelity prototypes. I also redesigned the Cue branding for the project."
       problem="People with busy calendars, who feel concerned about managing casual social events, face complex and formal barriers in existing forms of event scheduling."
-      goal="To create a mobile app that can provide a quick and easy way to create informal social events"
+      goal="Create a mobile app that can provide a quick and easy way to create informal social events"
       designImage={designImage}
     />
 

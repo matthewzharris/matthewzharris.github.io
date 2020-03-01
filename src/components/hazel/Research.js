@@ -3,102 +3,78 @@ import React from 'react';
 import Section, { SubSection } from '../Section';
 import Image from '../Image';
 
-import comparativeImage from '../../images/p2busanalysis.jpg';
-import heuristicImage from '../../images/p2heuristics.jpg';
-import sitemapImage from '../../images/p2initialsitemap.jpg';
-import personaImage from '../../images/p2persona.jpg';
+import HazelResearchImage from '../../images/HazelResearch.jpg';
+import HeadofFoodSafetypersonaImage from '../../images/Head of Food Safety.jpg';
+import FoodSafetySpecialistpersonaImage from '../../images/Food Safety Specialist.jpg';
+import HazelHeuristicAnalysisImage from '../../images/HazelHeuristicAnalysis.jpg';
 
 const Research = () => (
   <Section shade={1} title="Research">
-    <SubSection title="Comparative Analysis">
+    <Image alt="Hazel Research Process" src={HazelResearchImage} />
+    <SubSection title="Stakeholder & Business Research">
       <p>
-        I performed business analysis of competitors in order to get a better
-        sense of where Retrofit fit in the home goods market.
+        To start the project, I immersed myself in the food safety industry by researching the market and conducting stakeholder interviews with
+        Hazel Analytics employees. I believe that understanding the stakeholders and industry is foundational to being able to communicate and design effectively for those users.
       </p>
-      <p>From this research, I noted that their competitors all had:</p>
+      <p>From this research, I learned:</p>
       <ul>
-        <li>Minimal design</li>
-        <li>Brand consistency</li>
-        <li>Mobile responsiveness</li>
-        <li>Good navigation</li>
-        <li>Listed all furniture online whether they had shipping or not</li>
+        <li>Users were only using a couple of the top level landing pages</li>
+        <li>Users were unable to find features that they were most interested in like competitor analysis</li>
+        <li>Users wanted more reporting flexbility to help communicate food safety performance</li>
       </ul>
-      <Image alt="Comparative Analysis" src={comparativeImage} />
-
-      <p>
-        From a feature comparison among competitors, I noted that Retrofit Home
-        is lacking in a number of features. In the image below, I highlighted
-        features missing from Retrofit’s site including:
-      </p>
-      <ol type="A">
-        <li>Search capabilities</li>
-        <li>User accounts</li>
-        <li>Product reviews</li>
-        <li>Large product photos</li>
-        <li>Detailed product descriptions</li>
-      </ol>
-      <Image alt="Heuristic" src={heuristicImage} />
     </SubSection>
-
     <hr />
 
-    <SubSection title="User Interviews">
+    <SubSection title="User Research">
       <p>
-        I interviewed 3 users about their habits of shopping online for home
-        goods in order to find common themes. Overall, they reported that they
-        typically made small online purchases throughout the year, which for
-        them, required a fluid browsing experience. Additionally, they reported
-        that while they only make large furniture purchases every few years and
-        they prefer to make those purchases in person after browsing a
-        retailer’s website.
-      </p>
-    </SubSection>
-
-    <SubSection title="Contextual Inquiries">
-      <p>
-        In order to look at issues with the current site, I had 4 users walk
-        through different tasks including browsing the site and making a
-        purchase on the site. The issues that came up were primarily around
-        navigation and the information architecture of the site. Below, I
-        highlighted the areas of the sitemap that users struggled with
-        including:
+        After being able to orient my understanding of the space, I synthesized user interviews about the current platform and
+        developed a list of areas for potential improvement. Some of those
+        insights from users included:
       </p>
       <ul>
+        <li>General inability to find features in the platform</li>
         <li>
-          Online shop is an uncategorized bucket of all their products making it
-          hard to find specific items
+          Critical inspections and high frequency inspection facilities are the
+          major causes for users to engage
         </li>
         <li>
-          Shopping cart isn't persistent and doesn’t appear until products are
-          added
+          Jurisdictional and closure information are rarely important due to
+          health department discrepancies and the inability for recourse after
+          closures
         </li>
-        <li>Gallery is just a bunch of external links</li>
-        <li>
-          Lookbook seems unfinished and directs users to the online shop and
-          contact page
-        </li>
-        <li>
-          About Us page is featured in their primary navigation although rarely
-          visited
-        </li>
-        <li>Social media links are accessible only through the homepage</li>
       </ul>
-      <Image alt="Sitemap Analysis" src={sitemapImage} />
+      <p>
+        As a part of this process, I also worked to revamp existing personas
+        with available information about current and future users.
+      </p>
+      <Image alt="Head of Food Safety" src={HeadofFoodSafetypersonaImage} />
+      <Image
+        alt="Food Safety Specialist"
+        src={FoodSafetySpecialistpersonaImage}
+      />
     </SubSection>
 
-    <hr />
-
-    <SubSection title="Persona">
+    <SubSection title="Heuristic Analysis">
       <p>
-        Based on the user research, I selected Lauren as the primary persona
-        based on her demographics, behaviors, and needs, which align with
-        Retrofit’s core customer. Lauren’s decision making process is focused on
-        flashy copywriting, product details, and large photos of products. She
-        needs reviews when shopping to be confident in what she is buying.
-        Finally, she wants a quick, efficient checkout process (even from
-        mobile) so that she can get her products fast.
+        Using my industry and user research, I was then able to effectively
+        begin evaluating the current platform. While performing a heuristic
+        analysis of the user flows and pages, I collected a list of UX changes
+        to propose to the team including:
       </p>
-      <Image alt="Persona" src={personaImage} />
+      <Image alt="Heuristic Analysis" src={HazelHeuristicAnalysisImage} />
+      <p>
+        As a part of this analysis, I worked with the team to define a list of
+        design principles that would be used to create the new unified platform.
+        These principles were as follows:
+      </p>
+      <ul>
+        <li>Value out of the box</li>
+        <li>Flexibility</li>
+        <li>Connecting the dots</li>
+        <li>Visualization</li>
+        <li>Cohesiveness</li>
+        <li>Forward Looking</li>
+      </ul>
     </SubSection>
   </Section>
 );
