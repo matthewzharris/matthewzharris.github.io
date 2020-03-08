@@ -22,10 +22,11 @@ const Stats = ({ brief, client, tools, deliverables, team }) => (
       <h4>Deliverables</h4>
       <p>{deliverables}</p>
     </div>
-    <div className="col-lg-6">
-      <h4>Team</h4>
-      <p>{team}</p>
-    </div>
+    {team ?
+      <div className="col-lg-6">
+        <h4>Team</h4>
+        <p>{team}</p>
+      </div> : null}
   </div>
 );
 
@@ -71,28 +72,28 @@ const Overview = ({
   goal,
   designImage,
 }) => (
-  <div className="container">
-    <div className="row justify-content-center">
-      <div className="col-md-7">
-        <Stats
-          brief={brief}
-          client={client}
-          tools={tools}
-          deliverables={deliverables}
-          team={team}
-        />
-      </div>
-      {impact && (
-        <div className="col-md-5 impact pt-4 pb-4 p-sm-4">
-          <Impact impact={impact} />
+    <div className="container">
+      <div className="row justify-content-center">
+        <div className="col-md-7">
+          <Stats
+            brief={brief}
+            client={client}
+            tools={tools}
+            deliverables={deliverables}
+            team={team}
+          />
         </div>
-      )}
+        {impact && (
+          <div className="col-md-5 impact pt-4 pb-4 p-sm-4">
+            <Impact impact={impact} />
+          </div>
+        )}
+      </div>
+      <hr />
+      <ProblemGoal problem={problem} goal={goal} />
+      {designImage && <hr />}
+      {designImage && <DesignProcess image={designImage} />}
     </div>
-    <hr />
-    <ProblemGoal problem={problem} goal={goal} />
-    {designImage && <hr />}
-    {designImage && <DesignProcess image={designImage} />}
-  </div>
-);
+  );
 
 export default Overview;

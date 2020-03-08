@@ -8,6 +8,12 @@ import HeadofFoodSafetypersonaImage from '../../images/Head of Food Safety.jpg';
 import FoodSafetySpecialistpersonaImage from '../../images/Food Safety Specialist.jpg';
 import HazelHeuristicAnalysisImage from '../../images/HazelHeuristicAnalysis.jpg';
 
+import HazelValue1Image from '../../images/HazelValue1.jpg';
+import HazelValue2Image from '../../images/HazelValue2.jpg';
+import HazelValue3Image from '../../images/HazelValue3.jpg';
+import HazelValue4Image from '../../images/HazelValue4.jpg';
+
+
 const Research = () => (
   <Section shade={1} title="Research">
     <Image alt="Hazel Research Process" src={HazelResearchImage} />
@@ -67,14 +73,20 @@ const Research = () => (
         design principles that would be used to create the new unified platform.
         These principles were as follows:
       </p>
-      <ul>
-        <li>Value out of the box</li>
-        <li>Flexibility</li>
-        <li>Connecting the dots</li>
-        <li>Visualization</li>
-        <li>Cohesiveness</li>
-        <li>Forward Looking</li>
-      </ul>
+      <div className="row">
+        <div className="col-md-6">
+          <Image alt="Value Out of the Box" src={HazelValue1Image} />
+        </div>
+        <div className="col-md-6">
+          <Image alt="Focus on Flexibility" src={HazelValue2Image} />
+        </div>
+        <div className="col-md-6">
+          <Image alt="Vizualize Everything, Export Anything" src={HazelValue3Image} />
+        </div>
+        <div className="col-md-6">
+          <Image alt="Bring Cohesiveness to the CX" src={HazelValue4Image} />
+        </div>
+      </div>
     </SubSection>
   </Section>
 );
