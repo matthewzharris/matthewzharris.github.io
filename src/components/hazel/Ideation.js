@@ -11,7 +11,7 @@ const Ideation = () => (
     <SubSection title="Sitemap Redesign">
       <p>
         The current top level navigation had many tabs that hid the most useful
-        aspects of the product. Surfacing useful features and simplifying IA was
+        aspects of the product. Surfacing useful features and simplifying the information architecture was
         important to help ensure the users found value in the product and could
         accomplish their tasks. Throughout the early stages of the product, I
         tweaked the new navigation system ultimately arriving with this

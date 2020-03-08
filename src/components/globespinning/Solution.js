@@ -37,12 +37,11 @@ const Solution = () => (
     <hr />
 
     <SubSection title="Web App">
+      <p>As a part of this project, I also executed a redesign the Globespinning website that would continue the experience and functionality of the new mobile app.
+      </p>
       <Image alt="Globespinning Web Homepage" src={webhomepageImage} />
       <Image alt="Globespinning Web Trips" src={webtripsImage} />
       <Image alt="Globespinning Web Trip Detail" src={webtripdetailImage} />
-    </SubSection>
-
-    <SubSection title="Investor Presentation">
     </SubSection>
 
   </Section>

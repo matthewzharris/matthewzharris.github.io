@@ -38,15 +38,12 @@ const Research = () => (
         insights from users included:
       </p>
       <ul>
-        <li>General inability to find features in the platform</li>
+        <li>There is a general inability to find features in the platform.</li>
         <li>
-          Critical inspections and high frequency inspection facilities are the
-          major causes for users to engage
+          Facilities that have critical violations or are being inspected frequently are the major causes for users to engage.
         </li>
         <li>
-          Jurisdictional and closure information are rarely important due to
-          health department discrepancies and the inability for recourse after
-          closures
+          Geographic and restaurant closure data (featured prominently) are rarely important to users due to health department discrepancies and the inability user action after closures.
         </li>
       </ul>
       <p>
@@ -68,6 +65,9 @@ const Research = () => (
         to propose to the team including:
       </p>
       <Image alt="Heuristic Analysis" src={HazelHeuristicAnalysisImage} />
+    </SubSection>
+
+    <SubSection title="Design Principles">
       <p>
         As a part of this analysis, I worked with the team to define a list of
         design principles that would be used to create the new unified platform.
