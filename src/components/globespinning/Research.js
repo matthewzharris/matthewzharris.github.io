@@ -5,7 +5,6 @@ import Section, { SubSection } from '../Section';
 import Image from '../Image';
 
 import comparativeImage from '../../images/GlobespinningCompetition.jpg';
-import UserFlowImage from '../../images/GlobespinningCreateTrip.jpg';
 
 import designAuditImage1 from '../../images/GlobespinningDesignAudit1.jpg';
 import designAuditImage2 from '../../images/GlobespinningDesignAudit2.jpg';
@@ -19,7 +18,7 @@ const Research = () => (
       <p>
         For this project, there weren’t many direct competitors so I focused my
         research on the travel app industry. I took notes of visual design
-        elements and interactions that I could inspire the mobile app revamp.
+        elements and interactions that could inspire the mobile app revamp.
       </p>
       <Image alt="Comparative Analysis" src={comparativeImage} />
     </SubSection>
@@ -44,7 +43,6 @@ const Research = () => (
         defaultControlsConfig={{
           nextButtonText: '>',
           prevButtonText: '<',
-          pagingDotsContainerClassName: 'dots'
         }}
       >
         <Image alt="Sitemap Example" src={designAuditImage1} />
