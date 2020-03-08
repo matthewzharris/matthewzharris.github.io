@@ -16,7 +16,7 @@ const Work = () => (
     <div className="row">
       <h2 className="col-sm">Work</h2>
     </div>
-    {/* <div className="row mb-4">
+    <div className="row mb-4">
       <div className="col-md-4 mb-4 mb-md-0">
         <WorkItem
           link="/globespinning/"
@@ -33,7 +33,7 @@ const Work = () => (
           image={HazelImage}
         />
       </div>
-    </div> */}
+    </div>
     <div className="row mb-4">
       <div className="col-sm">
         <WorkItem
@@ -60,26 +60,6 @@ const Work = () => (
           title="Emerald Seattle"
           subtitle="Responsive Web App"
           image={emeraldImage}
-          cover={false}
-        />
-      </div>
-    </div>
-    <div className="row">
-      <div className="col-md-4">
-        <WorkItem
-          link="/seahappyhours/"
-          title="SEA Happy Hours"
-          subtitle="UX Design"
-          image={SHHImage}
-          cover={false}
-        />
-      </div>
-      <div className="col-md-8">
-        <WorkItem
-          link="/retrofit/"
-          title="Retrofit Home"
-          subtitle="Information Architecture Improvements"
-          image={retrofitImage}
           cover={false}
         />
       </div>
