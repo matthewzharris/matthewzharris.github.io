@@ -1,4 +1,5 @@
 import React from 'react';
+import Carousel from 'nuka-carousel';
 
 import Section, { SubSection } from '../Section';
 import Image from '../Image';
@@ -20,7 +21,7 @@ const Research = () => (
     <SubSection title="Stakeholder & Business Research">
       <p>
         To start the project, I immersed myself in the food safety industry by researching the market and conducting stakeholder interviews with
-        Hazel Analytics employees. I believe that understanding the stakeholders and industry is foundational to being able to communicate and design effectively for those users.
+        Hazel Analytics employees. I believe that building relationships with stakeholders and an understanding of the industry is foundational to being able to communicate and design effectively.
       </p>
       <p>From this research, I learned:</p>
       <ul>
@@ -53,11 +54,19 @@ const Research = () => (
         As a part of this process, I also worked to revamp existing personas
         with available information about current and future users.
       </p>
-      <Image alt="Head of Food Safety" src={HeadofFoodSafetypersonaImage} />
-      <Image
-        alt="Food Safety Specialist"
-        src={FoodSafetySpecialistpersonaImage}
-      />
+      <Carousel
+        className="mb-4"
+        defaultControlsConfig={{
+          nextButtonText: '>',
+          prevButtonText: '<',
+        }}
+      >
+        <Image alt="Head of Food Safety" src={HeadofFoodSafetypersonaImage} />
+        <Image
+          alt="Food Safety Specialist"
+          src={FoodSafetySpecialistpersonaImage}
+        />
+      </Carousel>
     </SubSection>
 
     <SubSection title="Heuristic Analysis">

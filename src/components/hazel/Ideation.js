@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import Section, { SubSection } from '../Section';
 import Image from '../Image';

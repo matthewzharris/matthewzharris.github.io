@@ -32,7 +32,7 @@ const Globespinning = () => (
       tools="Notion, Sketch, Powerpoint"
       deliverables="Mobile & Web Mockups, Prototype, Investor Deck"
       role="Design Lead"
-      impact="On this project, I worked closely with the founders to conceptualize the future of their mobile and web app. After defining the scope of the redesign, I planned the project delivery in conjunction with their business goals. I worked on the full redesign and a remote engineering team to implement my design."
+      impact="On this project, I worked closely with the founders to conceptualize the future of their mobile and web app. After defining the scope of the redesign, I planned the project delivery in conjunction with their business goals. I worked with a remote engineering team to implement my full redesign."
       problem="The app suffered from dated design, complex user flows, and unintuitive interactions."
       goal="Streamline the app with focused flows and thoughtful interactions as well as updated visual design."
     />
