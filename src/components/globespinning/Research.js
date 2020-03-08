@@ -43,7 +43,6 @@ const Research = () => (
         defaultControlsConfig={{
           nextButtonText: '>',
           prevButtonText: '<',
-          pagingDotsContainerClassName: 'dots'
         }}
       >
         <Image alt="Sitemap Example" src={designAuditImage1} />

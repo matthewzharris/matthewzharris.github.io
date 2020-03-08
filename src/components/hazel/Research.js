@@ -1,4 +1,5 @@
 import React from 'react';
+import Carousel from 'nuka-carousel';
 
 import Section, { SubSection } from '../Section';
 import Image from '../Image';
@@ -53,11 +54,19 @@ const Research = () => (
         As a part of this process, I also worked to revamp existing personas
         with available information about current and future users.
       </p>
-      <Image alt="Head of Food Safety" src={HeadofFoodSafetypersonaImage} />
-      <Image
-        alt="Food Safety Specialist"
-        src={FoodSafetySpecialistpersonaImage}
-      />
+      <Carousel
+        className="mb-4"
+        defaultControlsConfig={{
+          nextButtonText: '>',
+          prevButtonText: '<',
+        }}
+      >
+        <Image alt="Head of Food Safety" src={HeadofFoodSafetypersonaImage} />
+        <Image
+          alt="Food Safety Specialist"
+          src={FoodSafetySpecialistpersonaImage}
+        />
+      </Carousel>
     </SubSection>
 
     <SubSection title="Heuristic Analysis">
