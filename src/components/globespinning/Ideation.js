@@ -23,8 +23,8 @@ const Ideation = () => (
 
     <SubSection title="Flows">
       <p>
-        A significant portion of the issues with the current mobile site revolved around long, complicated user flows that made it daunting for the casual users Globespinning wanted to target. As a part of my ideation phase, I created new user flows with blockframes that included the details of the information required on each screen. This process helped me streamline the number of screens, ensure all information that is displayed is necessary, and that it is organized logically to the user.
-  </p>
+        A significant portion of the issues with the current mobile site revolved around long, complicated user flows that made it daunting for the casual users Globespinning wanted to target. As a part of my ideation phase, I created new user flows with blockframes that included the details of the information required on each screen. This process helped me streamline the number of screens and ensure all information displayed is both necessary and organized.
+      </p>
       <Image alt="Globespinning User Flows" src={flowImage} />
     </SubSection>
   </Section>

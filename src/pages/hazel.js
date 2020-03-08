@@ -26,13 +26,13 @@ const Hazel = () => (
     </Hero>
 
     <Overview
-      brief="Hazel Analytics is a data driven technology company looking to revolutionize public health through the connection of food service operators, regulators, and industry providers. Hazel Analytics was looking for a complete redesign of their Food Safety Insights platform, which allowed their clients to review the safety of their restaurants."
+      brief="Hazel Analytics is a data driven technology company looking to revolutionize public health through the connection of food service operators, regulators, and industry providers. Hazel Analytics was looking for a complete redesign of their Food Safety Insights platform, which allowed clients to review the safety of their restaurants."
       client="Hazel Analytics"
       tools="Figma, Google Slides, Evernote"
       deliverables="High Fidelity Mockups, Interactive Prototype, User Interview Findings, Investor Presentation"
       role="Design Lead"
       impact="My role on this project was to own the redesign from end-to-end working with the CEO and CTO to brainstorm, define, and design the new platform."
-      problem="The initial design of the platform was scrappy due to resources at the time, but suffered from noisy information architecture, duplicative features and unintuitive user flows."
+      problem="The initial design of the platform was scrappy due to resources at the time.  It suffered from noisy information architecture, duplicative features and unintuitive user flows."
       goal="Design a new platform based on user feedback and a set of unifying design principles."
       designImage={HazelProcessImage}
     />
