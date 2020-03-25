@@ -7,27 +7,18 @@ const Reflections = () => (
     <div className="row mb-4">
       <div className="col-sm ">
         <h3>Next Steps</h3>
-        <ul>
-          <li>
-            Due to a short timeline, I would continue usability testing of the
-            prototype and review results with the client.
-          </li>
-          <li>
-            I’d want to review potential features that were identified as
-            persona needs including: calendar app integration, mobile website
-            preview of Cue event, text updates for non Cue users
-          </li>
-        </ul>
+        <p>
+          Due the abbreviated timeline, I recommended that my client should continue usability testing with participants from their network.
+          I also recommended that my client should review potential features that were identified as
+          persona needs during research. These included: calendar app integrations, mobile website
+          preview of Cue event, and text updates for users without the app installed.
+        </p>
       </div>
       <div className="col-sm">
         <h3>What I Learned</h3>
-        <ul>
-          <li>
-            Importance of balancing
-            <strong> user needs</strong> with
-            <strong> client asks</strong>
-          </li>
-        </ul>
+        <p>
+          From my experience, the most important aspect of this project was balancing the users' needs with client asks. My approach was use market and user research as early and often as possible to ensure that our approach was based on data. As a result, I feel that Cue is a valuable app that could benefit people looking to create casual events.
+      </p>
       </div>
     </div>
   </Section>

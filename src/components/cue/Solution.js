@@ -1,30 +1,31 @@
 import React, { Fragment } from 'react';
+import Carousel from 'nuka-carousel';
 
 import Section, { SubSection } from '../Section';
 import Image from '../Image';
 import Video from '../Video';
 
-import styleguideImage from '../../images/p4styleguide.jpg';
 import highfidelityImage from '../../images/p4highfidelity.jpg';
 import finalEventChatImage from '../../images/p4finaleventchatflow.jpg';
 import finalETAImage from '../../images/p4finaletaflow.jpg';
-import usabilityImage from '../../images/p4usabilityfindings.jpg';
-import deliverablesImage from '../../images/p4deliverables.jpg';
+import designsysystem1Image from '../../images/CueDesignSystem1.jpg';
+import designsysystem2Image from '../../images/CueDesignSystem2.jpg';
 
 const Solution = () => (
   <Section shade={3} title="Solution">
-    <SubSection title="Visual Design">
+    <SubSection title="Design System">
       <p>
-        For the Cue brand, I created a style guide by researching Material
-        Design standards since my client requested an Android-first design. For
-        the primary logo, I wanted to invoke the idea of events and chatting so
-        I created a chat bubble from the C in Cue’s secondary logo and added a
-        calendar icon. For the color palette, I updated the green color from our
-        client and found a bright blue color for a secondary color for a
-        brighter, modern look. I chose to use standard Android Roboto typeface
-        and iconography for the app.
+        For the Cue brand, I developed a design system by researching common styles and design patterns from the messaging and calendar mobile app market. The purpose of the design system for this project was to address the concerns that I discovered in the research phase: <strong>outdated, inconsistent, and distracting visual elements.</strong> With the design system, I wanted to ensure that the app founders had a common design language to continue building the Cue brand into the future.
       </p>
-      <Image src={styleguideImage} alt="Styleguide" />
+      <Carousel
+        defaultControlsConfig={{
+          nextButtonText: '>',
+          prevButtonText: '<',
+        }}
+      >
+        <Image src={designsysystem1Image} alt="Styles" />
+        <Image src={designsysystem2Image} alt="Components" />
+      </Carousel>
     </SubSection>
 
     <hr />
@@ -33,13 +34,6 @@ const Solution = () => (
       <p>
         <Image src={highfidelityImage} alt="High Fidelity" />
         <p>
-          With the style guide complete, I applied the visual designs to create
-          an interactive prototype including motion design. I used the secondary
-          blue color as a signifier for anything clickable like buttons and
-          links in the app. In response to usability testing, I used a History
-          icon and a Notification bell icon.
-        </p>
-        <p>
           Below is the main flow that was created for usability where a user
           would create an event.
         </p>
@@ -47,23 +41,17 @@ const Solution = () => (
       <div className="text-center">
         <Video
           width="100%"
-          src="https://www.dropbox.com/s/l668u6nco7b4x12/Cue%20Prototype.mp4?raw=1"
+          src="https://www.dropbox.com/s/vu2ydyvb766c43s/Cue%20-%20Create%20Event.mp4?raw=1"
         />
       </div>
 
       <p>
-        In the Event Chat flow, a user clicks "SEE EVENT” to navigate to the
-        specific event, where the user can accept events and chat with
-        attendees.
+        The two other major flows of messaging and sharing your ETA are both an easy selection for the user. A user just clicks into the message from the homepage or navigates from the calendar to chat. From the calendar view, the user can share their ETA when they leave for the event; pairing this with a notification to users to share prior to the event is especially powerful.
       </p>
-      <Image src={finalEventChatImage} alt="Final Event Chat" />
-
-      <p>
-        For the Auto-ETA feature, users can update the length of time globally
-        in their Settings or turn it off locally per event in the Event Details
-        screen.
-      </p>
-      <Image src={finalETAImage} alt="Final ETA Flow" />
+      <Video
+        width="100%"
+        src="https://www.dropbox.com/s/ldvzx789hcvnkfr/Cue%20Chat%20Flow.mov?raw=1"
+      />
     </SubSection>
 
     <hr />
@@ -72,41 +60,21 @@ const Solution = () => (
       <p>We received the following final usability test findings:</p>
       <ul>
         <li>
-          <strong>Participants unable to invite attendees</strong> - I created a
-          toggle for event creators to allow participants to invite on the New
-          Event screen.
-        </li>
-        <li>
-          <strong>Developer feedback</strong> - I created a clickable hyperlink
-          that would allow users to send app feedback.
+          <strong>
+            Users wanted to know who created the event
+          </strong>{' '}
+          - I updated the calendar to show users who created the event
         </li>
         <li>
           <strong>
-            Unable to know who created event or see event attendance status
+            Event creators wanted to know who accepted the invite.
           </strong>{' '}
-          - I updated the event cards to show users who created the event and
-          who accepted the event invite.
+          - I updated the calendar to show users who had accepted the event invite.
         </li>
         <li>
-          <strong>ETA language confusing</strong> - I updated the ETA language
-          on the toggle to be a straightforward for users.
+          <strong>Sharing user's estimated time arrival (ETA) was confusing</strong> - I updated the ETA feature to just be a button that a user would select prior to each event.
         </li>
       </ul>
-      <Image src={usabilityImage} alt="Usability" />
-    </SubSection>
-
-    <SubSection title="Redlines & Annotations">
-      <p>
-        Since the developers on this project were remote, it was important for
-        me to prepare detailed final deliverables for the client. The redlines
-        gave the developers exact specs to use for reusable components like
-        event cards. The detailed design annotations helped explain any
-        interactive elements of the screen.
-      </p>
-      <Image
-        src={deliverablesImage}
-        alt="Redline and Annotation Deliverables"
-      />
     </SubSection>
   </Section>
 );

@@ -1,9 +1,11 @@
 import React from 'react';
+import Carousel from 'nuka-carousel';
 
 import Section, { SubSection } from '../Section';
 import Image from '../Image';
 
 import prioritizeImage from '../../images/p4prioritization.jpg';
+import userflowImage from '../../images/CueUserFlows2.png';
 import designStudioImage from '../../images/p4designstudio1.jpg';
 import paperPrototypeImage from '../../images/p4paperprototype.jpg';
 import eventFlowImage from '../../images/p4createeventflow.jpg';
@@ -14,55 +16,34 @@ const Ideation = () => (
   <Section shade={2} title="Ideation">
     <SubSection title="Initial Design">
       <p>
-        After creating a list of features to respond to our research, we used
-        the MoSCoW method to prioritize features that helped define our Cue's
-        vision.
+        After the market and user research, we met with the founders to showcase our findings and begin a prioritization of features for the new app. I used the MOSCOW method to prioritze the features and define the future vision for Cue.
       </p>
       <Image src={prioritizeImage} alt="Prioritization" />
 
       <p>
-        After initial sketches, I led a design studio to explore the flow of
-        information and interface of our features. I wanted to explore how to be
-        “chat first” (something that the client saw as important) while
-        maintaining the primary focus on creating/managing events.
+        There were two key user flows required by the app including creating an event and accepting an invite to an event. Based on the current app, I included chat and sharing ETA to streamline their user flows.
       </p>
-      <Image src={designStudioImage} alt="Design Studio" />
-    </SubSection>
+      <Image src={userflowImage} alt="Cue User Flows" />
 
-    <hr />
-
-    <SubSection title="Paper Prototype">
       <p>
-        I then created a paper prototype to test the designs of the high-level
-        information architecture and user flows.
+        I led a design studio after initial sketches to get ideas from the entire team to see how everyone was thinking about the potential interaction and visual design.
       </p>
       <Image src={paperPrototypeImage} alt="Paper Prototype" />
-      <p>From usability testing, we found:</p>
-      <ul>
-        <li>Event creation screen language confusing</li>
-        <li>Unsure if event was created</li>
-        <li>Tab bar doesn’t make sense</li>
-        <li>Event accept/decline icons confusing</li>
-      </ul>
     </SubSection>
 
     <hr />
 
     <SubSection title="Low Fidelity Wireframes">
-      <p>From paper to low fi wireframes, the iteration was pretty dramatic.</p>
       <p>
-        On the home screen, I removed the tab bar and replaced it with a filter
-        for scheduled/unscheduled events to help simplify the information
-        architecture. I went back to the standard + sign in the bottom corner
-        for the easy event creation for Jill. I included an Archive of past
-        events to help our persona create events from past groups.
-      </p>
+        By developing higher fidelity but preliminary version of wireframes, I was able to workout some of the issues that we wanted to address.
+        </p>
+      <p>
+        On the home screen, I decided to stick with the standard add button design pattern so that it would be easier for users to understand how to quickly create events.
+        </p>
       <Image src={eventFlowImage} alt="Low Fidelity Wireframes" />
       <p>
-        For the event chat flow, the major update was the streamlined user flow
-        for a 1 click to land into the chat. I also included the ability to
-        accept the invite from the specific event screen.
-      </p>
+        For chatting with event attendees, the major issue was the difficulty finding the feature in the intial app. After wireframing, I found that it was still too difficult to chat and changed event chats to be the app landing screen.
+        </p>
       <Image src={eventChatImage} alt="Event Chat Flow" />
       <p>
         For the ETA flow, I created a simple dialog box when setting up the app
@@ -71,7 +52,7 @@ const Ideation = () => (
         on/off as well as change the amount of time before it would allow ETA to
         be shared. In the event details, I included an ETA opt out at the
         request of our client.
-      </p>
+        </p>
       <Image src={eventETAImage} alt="Event ETA Flow" />
       <p>The researcher conducted 2 usability tests and found:</p>
       <ul>
@@ -79,7 +60,7 @@ const Ideation = () => (
         <li>‘Archive’ and ‘Alerts’ terminology was confusing</li>
         <li>
           Unclear that tapping the event card in chat leads to event details
-        </li>
+          </li>
       </ul>
     </SubSection>
   </Section>

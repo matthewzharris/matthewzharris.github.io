@@ -12,17 +12,16 @@ import personaImage from '../../images/p4persona.jpg';
 
 const Research = () => (
   <Section shade={1} title="Research">
-    <SubSection title="Comparative Analysis">
+    <SubSection title="Market Research">
       <p>
-        I led our business analysis research of the event mobile app market to
+        I led our research of the event mobile app market to
         see where there might be opportunities for Cue.
       </p>
       <ul>
         <li>
-          For informal events, texting was primarily used to create events, even
-          though there were significant issues with group texts like
-          non-responses, general confusion with no specific place for event
-          details, etc.
+          Texting was primarily used by people interviewed to create informal events, but there are many issues with using texting. Those issues include
+          non-responses and general confusion with no specific place for event
+          details.
         </li>
         <li>
           For formal events, people typically used a calendar app to schedule
@@ -32,8 +31,8 @@ const Research = () => (
       </ul>
       <Image src={analysisImage} alt="analysis" />
       <p>
-        From this analysis, we determined that their might be an opportunity to
-        help people create informal events with more structure than texting.
+        From this analysis, I made a hypothesis that there is an opportunity to
+        help people create quick and casual events.
       </p>
     </SubSection>
 
@@ -67,18 +66,14 @@ const Research = () => (
       </p>
       <Image src={contextualInquiry} alt="User Research" />
       <p>
-        The user researcher performed 5 user interviews with potential Cue users
-        in order to uncover some common themes and pain points around event
-        scheduling. The two main common themes were:
+        From 5 user interviews with potential Cue users, the two main common themes were:
       </p>
       <ul>
         <li>
-          Problems with texting include requiring excessive back-and-forth and
-          ambiguity surrounding commitment
+          Texting issues include excessive back-and-forth and difficulty in whether people are attending
         </li>
         <li>
-          Problems with more formal platforms include needing all parties to
-          have that application and needing many, well defined details
+          More formal apps require many details and everyone to have that app installed
         </li>
       </ul>
       <Image src={affinityMapping} slt="Affinity Mapping" />
@@ -88,10 +83,9 @@ const Research = () => (
 
     <SubSection title="Persona">
       <p>
-        From research, we created Jill Smith who is a busy working mom with
+        From research, one of our personas was Jill Smith. She is a busy working mom with
         packed work and family schedules, but she still tries to see her friends
-        whenever they have free time. She hates when people are late, getting
-        e-vites, and being the go-between for events. Her pain points with
+        whenever they have free time. Her pain points with
         events are that she and her friends often forget to meet when they
         planned because of their busy lives. They also often need to change when
         and where they planned to meet and coordinate between multiple friends.
