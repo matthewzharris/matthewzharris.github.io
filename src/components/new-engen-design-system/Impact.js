@@ -29,7 +29,7 @@ const Impact = () => (
       </li>
       <li>
         UX team spending more time on the overall user experience and user
-        interactions instead of focusing efforts on UI design.u
+        interactions instead of focusing efforts on UI design.
       </li>
     </ul>
   </Section>
