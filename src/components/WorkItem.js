@@ -14,7 +14,7 @@ const WorkItem = ({ image, link, title, subtitle, cover = true, bgSize }) => (
     >
       <div className="work-content">
         <h3>{title}</h3>
-        <h5>{subtitle}</h5>
+        <small>{subtitle}</small>
         <div className="work-accent" />
       </div>
     </div>

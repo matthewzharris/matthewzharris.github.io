@@ -4,16 +4,20 @@ import './Overview.css';
 
 import Image from './Image';
 
-const Stats = ({ brief, client, tools, deliverables, team }) => (
+const Stats = ({ brief, client, company, tools, deliverables, team }) => (
   <div className="row">
-    <div className="col-xl-12">
+    {brief ? <div className="col-xl-12">
       <h4>Brief</h4>
       <p>{brief}</p>
-    </div>
-    <div className="col-lg-6">
+    </div> : null}
+    {client ? <div className="col-lg-6">
       <h4>Client</h4>
       <p>{client}</p>
-    </div>
+    </div> : null}
+    {company ? <div className="col-lg-6">
+      <h4>Company</h4>
+      <p>{company}</p>
+    </div> : null}
     <div className="col-lg-6">
       <h4>Tools</h4>
       <p>{tools}</p>
@@ -64,6 +68,7 @@ const ProblemGoal = ({ problem, goal }) => (
 const Overview = ({
   brief,
   client,
+  company,
   tools,
   deliverables,
   team,
@@ -71,6 +76,7 @@ const Overview = ({
   problem,
   goal,
   designImage,
+  children,
 }) => (
     <div className="container">
       <div className="row justify-content-center">
@@ -78,13 +84,14 @@ const Overview = ({
           <Stats
             brief={brief}
             client={client}
+            company={company}
             tools={tools}
             deliverables={deliverables}
             team={team}
           />
         </div>
         {impact && (
-          <div className="col-md-5 impact pt-4 pb-4 p-sm-4">
+          <div className="col-md-5 impact pl-4 pr-4 pt-4 pb-1">
             <Impact impact={impact} />
           </div>
         )}
@@ -93,6 +100,8 @@ const Overview = ({
       <ProblemGoal problem={problem} goal={goal} />
       {designImage && <hr />}
       {designImage && <DesignProcess image={designImage} />}
+      {children && <hr />}
+      {children}
     </div>
   );
 

@@ -4,12 +4,9 @@ import WorkItem from '../components/WorkItem';
 
 import cueImage from '../images/Cue_SplashScreenMockup.jpg';
 import readyImage from '../images/P3HeroFinal.jpg';
-import SHHImage from '../images/SHHhero2.jpg';
-import emeraldImage from '../images/emerald.jpg';
-import retrofitImage from '../images/P2HeroFinal.jpg';
+import designSystemImage from '../images/NEDesignSystemHero.jpg';
 import GlobespinningImage from '../images/globespinning.jpg';
 import HazelImage from '../images/hazel.jpg';
-
 
 const Work = () => (
   <section className="container mb-5 pb-5" id="work">
@@ -31,6 +28,16 @@ const Work = () => (
           title="Hazel Analytics"
           subtitle="Web app redesign"
           image={HazelImage}
+        />
+      </div>
+    </div>
+    <div className="row mb-4">
+      <div className="col-md-12">
+        <WorkItem
+          link="/new-engen-design-system/"
+          title="New Engen Design System"
+          subtitle="Design Lead"
+          image={designSystemImage}
         />
       </div>
     </div>

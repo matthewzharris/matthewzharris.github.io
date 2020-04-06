@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 
 import Hero from '../components/Hero';
 import HazelImage from '../images/hazel.jpg';
-import cueImage from '../images/cue.jpg';
+import designSystemImage from '../images/NEDesignSystemHero.jpg';
 import Overview from '../components/Overview';
 import Section from '../components/Section';
 import WorkItem from '../components/WorkItem';
@@ -31,7 +31,21 @@ const Hazel = () => (
       tools="Figma, Google Slides, Evernote"
       deliverables="High Fidelity Mockups, Interactive Prototype, User Interview Findings, Investor Presentation"
       role="Design Lead"
-      impact={<div><p>This project took place in the first quarter of 2019 while I was consulting for startups. During my time on the project, I worked directly with the CEO and CTO on the vision and redesign of the platform.</p><p>I was responsible for executing all stages of the design process. This included creation of all design deliverables such as research, wireframes, high-fidelity mockups, and usability testing results.</p></div>}
+      impact={
+        <div>
+          <p>
+            This project took place in the first quarter of 2019 while I was
+            consulting for startups. During my time on the project, I worked
+            directly with the CEO and CTO on the vision and redesign of the
+            platform.
+          </p>
+          <p>
+            I was responsible for executing all stages of the design process.
+            This included creation of all design deliverables such as research,
+            wireframes, high-fidelity mockups, and usability testing results.
+          </p>
+        </div>
+      }
       problem="The initial design of the platform was scrappy due to resources at the time.  It suffered from noisy information architecture, duplicative features and unintuitive user flows."
       goal="Design a new platform based on user feedback and a set of unifying design principles."
       designImage={HazelProcessImage}
@@ -45,10 +59,10 @@ const Hazel = () => (
     <Section shade={5}>
       <h4>Keep Reading</h4>
       <WorkItem
-        link="/cue/"
-        title="Cue Reminder"
-        subtitle="Mobile App Redesign"
-        image={cueImage}
+        link="/new-engen-design-system/"
+        title="New Engen Design System"
+        subtitle="Design Lead"
+        image={designSystemImage}
       />
     </Section>
   </Fragment>
