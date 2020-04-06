@@ -34,7 +34,7 @@ const NewEngenDesignSystem = () => (
       tools="Sketch to Figma"
       deliverables="Figma Design System, Storybook"
       role="Design Lead"
-      impact="Over this ongoing project, I lead the design, development, implementation, and support of a design system in collaboration with two other product designers and four engineers."
+      impact="Over this ongoing project, I led the design, development, implementation, and support of a design system in collaboration with two other product designers and four engineers."
       problem="The existing New Engen design system wasn't consistently applied or used by either designers or developers, which resulted in a disjointed design across the product and lost time on our product and engineering teams."
       goal="Operationalize a new design system that fits our company's mission to create a consistent user experience and save our teams time and money."
     >
