@@ -3,7 +3,7 @@ import React from 'react';
 import WorkItem from '../components/WorkItem';
 
 import cueImage from '../images/Cue_SplashScreenMockup.jpg';
-import readyImage from '../images/P3HeroFinal.jpg';
+import spendTrackerImage from '../images/SpendTrackerHero.jpg';
 import designSystemImage from '../images/NEDesignSystemHero.jpg';
 import GlobespinningImage from '../images/globespinning.jpg';
 import HazelImage from '../images/hazel.jpg';
@@ -44,10 +44,10 @@ const Work = () => (
     <div className="row mb-4">
       <div className="col-md-8 mb-4 mb-md-0">
         <WorkItem
-          link="/ready/"
-          title="ReadySeattle"
-          subtitle="Information Architecture, Visual Design, Project Management"
-          image={readyImage}
+          link="/spend-tracker/"
+          title="New Engen: Spend Tracker"
+          subtitle="Design Lead"
+          image={spendTrackerImage}
           cover={false}
         />
       </div>
@@ -55,7 +55,7 @@ const Work = () => (
         <WorkItem
           link="/cue/"
           title="Cue Reminder"
-          subtitle="Information Architecture, Interaction Design, Visual Design"
+          subtitle="Mobile app redesign"
           image={cueImage}
         />
       </div>

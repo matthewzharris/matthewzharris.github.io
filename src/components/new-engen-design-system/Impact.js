@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Section from '../Section';
-import Image from '../Image';
 
 const Impact = () => (
   <Section title="Impact" shade={4}>

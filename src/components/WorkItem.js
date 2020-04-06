@@ -3,12 +3,21 @@ import Link from 'gatsby-link';
 
 import './WorkItem.css';
 
-const WorkItem = ({ image, link, title, subtitle, cover = true, bgSize }) => (
+const WorkItem = ({
+  image,
+  link,
+  title,
+  subtitle,
+  cover = true,
+  bgSize,
+  bgColor,
+}) => (
   <Link to={link}>
     <div
       style={{
         backgroundImage: `url(${image})`,
         backgroundSize: bgSize ? bgSize : cover ? 'cover' : 'contain',
+        ...(bgColor ? { backgroundColor: bgColor } : null),
       }}
       className="d-flex flex-column justify-content-end align-items-end p-3 work-item-img work-item-img-cue"
     >
