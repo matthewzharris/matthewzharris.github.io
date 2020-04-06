@@ -17,7 +17,7 @@ const Solution = () => (
     <div className="text-center">
       <Video
         width="100%"
-        src="https://www.dropbox.com/s/ve20q9cx49lawpx/BudgetingVideoV1.mp4?raw=1"
+        src="https://www.dropbox.com/s/5s0vwmnkh3w1rgl/SpendTrackerV3000.mp4?raw=1"
       />
     </div>
   </Section>
