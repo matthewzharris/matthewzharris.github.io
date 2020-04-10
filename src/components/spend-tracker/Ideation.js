@@ -14,7 +14,7 @@ const Ideation = () => (
   <Section shade={2} title="Ideation">
     <SubSection title="Task Flows">
       <p>
-        Before working on any screens, I set out to illustrate the key task
+        Before working on any screens, I set out to illustrate the main task
         flows so I could understand how the user needs to interact with tool to
         perform the tasks they want to complete.
       </p>

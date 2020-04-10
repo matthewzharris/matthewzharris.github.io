@@ -6,7 +6,7 @@ import Video from '../Video';
 const Solution = () => (
   <Section shade={3} title="Solution">
     <p>
-      With the project scoped, estimated and prioritized, Spend Tracker entered
+      With the project scoped, estimated, and prioritized, Spend Tracker entered
       our engineering sprints and was developed on time. I stepped up to lead
       the UAT of the tool with support from some product managers. The end
       result was an easy to use product for our small-to-medium sized marketers
