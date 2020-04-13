@@ -31,6 +31,16 @@ const Impact = () => (
         interactions instead of focusing efforts on UI design.
       </li>
     </ul>
+    <blockquote>
+      "Matt was instrumental in updating our UX Design System into a tool that
+      allowed for better collaboration and interaction for the UX Team. He was
+      proactive in making sure that our components, styles and patterns were
+      always documented and up-to-date with industry standards. Matt also worked
+      closely with the engineering team to ensure the system was properly built
+      out, which was crucial for the successful implementation into our
+      production environment." <br />
+      <br />- Jason Bourguignon, Director of Design at New Engen
+    </blockquote>
   </Section>
 );
 

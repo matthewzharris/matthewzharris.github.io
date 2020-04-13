@@ -20,6 +20,19 @@ const Solution = () => (
         src="https://www.dropbox.com/s/5s0vwmnkh3w1rgl/SpendTrackerV3000.mp4?raw=1"
       />
     </div>
+
+    <p>
+      After release, I wrote an interview guide and had another designer run
+      usability studies with users. Based on the results, I designed a new
+      onboarding flow to help explain the value of the new Spend Tracker Module.
+    </p>
+
+    <div>
+      <Video
+        width="100%"
+        src="https://www.dropbox.com/s/ze76hkfyb1e4cvy/SpendTrackerOnboardingFinal.mp4?raw=1"
+      />
+    </div>
   </Section>
 );
 

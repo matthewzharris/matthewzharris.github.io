@@ -20,6 +20,12 @@ a {
   border-bottom: 1px solid #67fcfa;
 }
 
+blockquote {
+  border-left: 2px solid white;
+  padding: 16px;
+  font-style: italic;
+}
+
 a:hover,
 a:active {
   color: #67fcfa;

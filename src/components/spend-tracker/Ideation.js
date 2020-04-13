@@ -24,10 +24,23 @@ const Ideation = () => (
     <hr />
 
     <SubSection title="Sketch">
+      <p>
+        I sketched out different options on how spend & budget could be
+        visualized to our users. Based on early conversations with users, they
+        need to be able to be able to easily compare across platforms so
+        proximity of the budget visualizations was most important.
+      </p>
       <Image alt="Spend Tracker Sketches" src={sketchImage} />
     </SubSection>
 
     <SubSection title="Wireframes">
+      <p>
+        After testing the wireframes with users, the product manager and I
+        learned about the need to allow budget changes throughout the month in
+        the first version of Spend Tracker. Users were changing budgets on a
+        regular basis sometimes as often as weekly based on prior week's channel
+        & platform performance.
+      </p>
       <Carousel
         defaultControlsConfig={{
           nextButtonText: '>',

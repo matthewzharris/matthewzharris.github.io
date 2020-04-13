@@ -24,7 +24,6 @@ const SpendTracker = () => (
       <p>Cross-channel marketing budget management tool</p>
     </Hero>
     <Overview
-      brief="Design a tool that allows users to track their budget, spend, and metrics across all their marketing channels and platforms."
       company={
         <a href="https://newengen.com" target="_blank">
           New Engen

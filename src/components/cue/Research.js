@@ -1,4 +1,5 @@
-import React, { Fragment } from 'react';
+import React from 'react';
+import Carousel from 'nuka-carousel';
 
 import Section, { SubSection } from '../Section';
 import Image from '../Image';
@@ -14,14 +15,15 @@ const Research = () => (
   <Section shade={1} title="Research">
     <SubSection title="Market Research">
       <p>
-        I led our research of the event mobile app market to
-        see where there might be opportunities for Cue.
+        I led our research of the event mobile app market to see where there
+        might be opportunities for Cue.
       </p>
       <ul>
         <li>
-          Texting was primarily used by people interviewed to create informal events, but there are many issues with using texting. Those issues include
-          non-responses and general confusion with no specific place for event
-          details.
+          Texting was primarily used by people interviewed to create informal
+          events, but there are many issues with using texting. Those issues
+          include non-responses and general confusion with no specific place for
+          event details.
         </li>
         <li>
           For formal events, people typically used a calendar app to schedule
@@ -63,32 +65,40 @@ const Research = () => (
       <p>
         From contextual inquiries, we found the current MVP to have an
         unintuitive interface and a lack of feedback for users completing tasks.
-      </p>
-      <Image src={contextualInquiry} alt="User Research" />
-      <p>
-        From 5 user interviews with potential Cue users, the two main common themes were:
+        The two main themes from 5 user interviews with potential Cue users
+        were:
       </p>
       <ul>
         <li>
-          Texting issues include excessive back-and-forth and difficulty in whether people are attending
+          Texting issues include excessive back-and-forth and difficulty in
+          whether people are attending
         </li>
         <li>
-          More formal apps require many details and everyone to have that app installed
+          More formal apps require many details and everyone to have that app
+          installed
         </li>
       </ul>
-      <Image src={affinityMapping} slt="Affinity Mapping" />
+      <Carousel
+        defaultControlsConfig={{
+          nextButtonText: '>',
+          prevButtonText: '<',
+        }}
+      >
+        <Image src={contextualInquiry} alt="User Research" />
+        <Image src={affinityMapping} slt="Affinity Mapping" />
+      </Carousel>
     </SubSection>
 
     <hr />
 
     <SubSection title="Persona">
       <p>
-        From research, one of our personas was Jill Smith. She is a busy working mom with
-        packed work and family schedules, but she still tries to see her friends
-        whenever they have free time. Her pain points with
-        events are that she and her friends often forget to meet when they
-        planned because of their busy lives. They also often need to change when
-        and where they planned to meet and coordinate between multiple friends.
+        From research, one of our personas was Jill Smith. She is a busy working
+        mom with packed work and family schedules, but she still tries to see
+        her friends whenever they have free time. Her pain points with events
+        are that she and her friends often forget to meet when they planned
+        because of their busy lives. They also often need to change when and
+        where they planned to meet and coordinate between multiple friends.
       </p>
       <Image src={personaImage} alt="Persona" />
     </SubSection>

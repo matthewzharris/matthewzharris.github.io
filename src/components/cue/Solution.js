@@ -1,13 +1,10 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import Carousel from 'nuka-carousel';
 
 import Section, { SubSection } from '../Section';
 import Image from '../Image';
 import Video from '../Video';
 
-import highfidelityImage from '../../images/p4highfidelity.jpg';
-import finalEventChatImage from '../../images/p4finaleventchatflow.jpg';
-import finalETAImage from '../../images/p4finaletaflow.jpg';
 import designsysystem1Image from '../../images/CueDesignSystem1.jpg';
 import designsysystem2Image from '../../images/CueDesignSystem2.jpg';
 
@@ -15,7 +12,16 @@ const Solution = () => (
   <Section shade={3} title="Solution">
     <SubSection title="Design System">
       <p>
-        For the Cue brand, I developed a design system by researching common styles and design patterns from the messaging and calendar mobile app market. The purpose of the design system for this project was to address the concerns that I discovered in the research phase: <strong>outdated, inconsistent, and distracting visual elements.</strong> With the design system, I wanted to ensure that the app founders had a common design language to continue building the Cue brand into the future.
+        For the Cue brand, I developed a design system by researching common
+        styles and design patterns from the messaging and calendar mobile app
+        market. The purpose of the design system for this project was to address
+        the concerns that I discovered in the research phase:{' '}
+        <strong>
+          outdated, inconsistent, and distracting visual elements.
+        </strong>{' '}
+        With the design system, I wanted to ensure that the app founders had a
+        common design language to continue building the Cue brand into the
+        future.
       </p>
       <Carousel
         defaultControlsConfig={{
@@ -32,7 +38,6 @@ const Solution = () => (
 
     <SubSection title="High Fidelity Wireframes">
       <p>
-        <Image src={highfidelityImage} alt="High Fidelity" />
         <p>
           Below is the main flow that was created for usability where a user
           would create an event.
@@ -46,7 +51,12 @@ const Solution = () => (
       </div>
 
       <p>
-        The two other major flows of messaging and sharing your ETA are both an easy selection for the user. A user just clicks into the message from the homepage or navigates from the calendar to chat. From the calendar view, the user can share their ETA when they leave for the event; pairing this with a notification to users to share prior to the event is especially powerful.
+        The two other major flows of messaging and sharing your ETA are both an
+        easy selection for the user. A user just clicks into the message from
+        the homepage or navigates from the calendar to chat. From the calendar
+        view, the user can share their ETA when they leave for the event;
+        pairing this with a notification to users to share prior to the event is
+        especially powerful.
       </p>
       <Video
         width="100%"
@@ -60,19 +70,22 @@ const Solution = () => (
       <p>We received the following final usability test findings:</p>
       <ul>
         <li>
-          <strong>
-            Users wanted to know who created the event
-          </strong>{' '}
-          - I updated the calendar to show users who created the event
+          <strong>Users wanted to know who created the event</strong> - I
+          updated the calendar to show users who created the event
         </li>
         <li>
           <strong>
             Event creators wanted to know who accepted the invite.
           </strong>{' '}
-          - I updated the calendar to show users who had accepted the event invite.
+          - I updated the calendar to show users who had accepted the event
+          invite.
         </li>
         <li>
-          <strong>Sharing user's estimated time arrival (ETA) was confusing</strong> - I updated the ETA feature to just be a button that a user would select prior to each event.
+          <strong>
+            Sharing user's estimated time arrival (ETA) was confusing
+          </strong>{' '}
+          - I updated the ETA feature to just be a button that a user would
+          select prior to each event.
         </li>
       </ul>
     </SubSection>
