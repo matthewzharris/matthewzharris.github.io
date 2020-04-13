@@ -29,7 +29,7 @@ const Hazel = () => (
       brief="Hazel Analytics is a data driven technology company looking to revolutionize public health through the connection of food service operators, regulators, and industry providers. Hazel Analytics was looking for a complete redesign of their Food Safety Insights platform, which allowed clients to review the safety of their restaurants."
       client="Hazel Analytics"
       tools="Figma, Google Slides, Evernote"
-      deliverables="High Fidelity Mockups, Interactive Prototype, User Interview Findings, Investor Presentation"
+      deliverables="High Fidelity Mockups, Interactive Prototype, Usability Study Results, Investor Presentation"
       role="Design Lead"
       impact={
         <div>
@@ -42,7 +42,7 @@ const Hazel = () => (
           <p>
             I was responsible for executing all stages of the design process.
             This included creation of all design deliverables such as research,
-            wireframes, high-fidelity mockups, and usability testing results.
+            wireframes, high-fidelity mockups, and usability study results.
           </p>
         </div>
       }
