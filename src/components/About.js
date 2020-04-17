@@ -22,21 +22,7 @@ const About = ({ hideUX }) => (
           city, hiking a nearby mountain, or watching old movies with my dog
           Bogart.
         </p>
-        {!hideUX ? (
-          <Fragment>
-            <p>
-              <strong>Why UX</strong>
-            </p>
-            <p>
-              A focus on users has always been a part of my process. In my UX
-              career and past experience in tech consulting, I’ve seen firsthand
-              users interacting with software and have been fascinated with the
-              implications of design on their experiences. Moving to a proactive
-              design role to create for users needs is incredibly fulfilling
-              work that I look forward to sharing with the community.
-            </p>
-          </Fragment>
-        ) : null}
+
         <div
           id="contact"
           className="contact-links d-flex align-items-center justify-content-between"

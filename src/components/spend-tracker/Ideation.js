@@ -5,7 +5,10 @@ import Section, { SubSection } from '../Section';
 import Image from '../Image';
 
 import taskFlowsImage from '../../images/spendtrackertaskflows.png';
-import sketchImage from '../../images/spendtrackersketches.jpg';
+import sketchImage1 from '../../images/spendtrackersketches1.jpeg';
+import sketchImage2 from '../../images/spendtrackersketches2.jpeg';
+import sketchImage3 from '../../images/spendtrackersketches3.jpeg';
+import sketchImage4 from '../../images/spendtrackersketches4.jpeg';
 import wireframeImage1 from '../../images/BudgetWireframe1.jpg';
 import wireframeImage2 from '../../images/BudgetWireframe2.jpg';
 import wireframeImage3 from '../../images/BudgetWireframe3.jpg';
@@ -30,7 +33,18 @@ const Ideation = () => (
         need to be able to be able to easily compare across platforms so
         proximity of the budget visualizations was most important.
       </p>
-      <Image alt="Spend Tracker Sketches" src={sketchImage} />
+      <Carousel
+        defaultControlsConfig={{
+          nextButtonText: '>',
+          prevButtonText: '<',
+        }}
+      >
+        <Image alt="Spend Tracker Sketches" src={sketchImage1} />
+        <Image alt="Spend Tracker Sketches" src={sketchImage2} />
+        <Image alt="Spend Tracker Sketches" src={sketchImage3} />
+        <Image alt="Spend Tracker Sketches" src={sketchImage4} />
+      </Carousel>
+      <p> </p>
     </SubSection>
 
     <SubSection title="Wireframes">

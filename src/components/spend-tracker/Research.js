@@ -35,12 +35,12 @@ const Research = () => (
 
     <SubSection title="User Research">
       <p>
-        Talking to users both internal and external was key to understand the
-        subject of budgeting for marketers. It was clear from generative
-        research that marketers approached budgeting in many different ways. Our
-        solution would both have to focus on the common challenges that are
-        consistent for our users and be flexible enough to accomodate different
-        workflows.
+        Talking to users both internal and external with experience in small to
+        medium sized businesses was key to understand the subject of budgeting
+        for marketers. It was clear from generative research that marketers
+        approached budgeting in many different ways. Our solution would both
+        have to focus on the common challenges that are consistent for our users
+        and be flexible enough to accomodate different workflows.
       </p>
       <div className="row">
         <div className="col-md-3">
