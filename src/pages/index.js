@@ -17,7 +17,11 @@ export default class IndexPage extends Component {
       <div>
         <Hero title="matt harris">
           <p>
-            UX Designer @ <a href="https://www.newengen.com/" target="_blank">New Engen</a>
+            Product-minded UX Designer living in Seattle working at{' '}
+            <a href="https://www.newengen.com/" target="_blank">
+              New Engen
+            </a>
+            .
           </p>
         </Hero>
         <Work />
