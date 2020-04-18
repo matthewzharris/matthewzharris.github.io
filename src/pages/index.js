@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Link from 'gatsby-link';
 import Cookie from 'js-cookie';
 
 import Hero from '../components/Hero';
