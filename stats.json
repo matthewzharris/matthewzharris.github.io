@@ -9,8 +9,8 @@
       "component---src-pages-creative-explorer-js-124848e70cf45998c0d5.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-a140e9fe723752457a1b.js",
-      "component---src-pages-index-js-a140e9fe723752457a1b.js.map"
+      "component---src-pages-index-js-32e5b5e7bc299e131c01.js",
+      "component---src-pages-index-js-32e5b5e7bc299e131c01.js.map"
     ],
     "path---sprinklr": [
       "path---sprinklr-a0e39f21c11f6a62c5ab.js",
@@ -29,8 +29,8 @@
       "path----27541edc02ec66209a4f.js.map"
     ],
     "component---src-pages-new-engen-design-system-js": [
-      "component---src-pages-new-engen-design-system-js-e69b8d189a65e647d44b.js",
-      "component---src-pages-new-engen-design-system-js-e69b8d189a65e647d44b.js.map"
+      "component---src-pages-new-engen-design-system-js-6ccab4a4c4c73769821d.js",
+      "component---src-pages-new-engen-design-system-js-6ccab4a4c4c73769821d.js.map"
     ],
     "component---src-pages-dropbox-js": [
       "component---src-pages-dropbox-js-6305022d1b8bed14912a.js",
@@ -68,6 +68,10 @@
       "path---expedian-a0e39f21c11f6a62c5ab.js",
       "path---expedian-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---concepts": [
+      "path---concepts-a0e39f21c11f6a62c5ab.js",
+      "path---concepts-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "path---knowledge": [
       "path---knowledge-a0e39f21c11f6a62c5ab.js",
       "path---knowledge-a0e39f21c11f6a62c5ab.js.map"
@@ -85,9 +89,9 @@
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-ddb5b7abfedc41743e45.js",
+      "commons-da0ab6f6c26052673297.js",
       "build-js-styles.css",
-      "commons-ddb5b7abfedc41743e45.js.map",
+      "commons-da0ab6f6c26052673297.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-hbo-js": [
@@ -122,6 +126,10 @@
       "component---src-pages-sprinklr-js-04a6594106b54cd3119c.js",
       "component---src-pages-sprinklr-js-04a6594106b54cd3119c.js.map"
     ],
+    "component---src-pages-concepts-js": [
+      "component---src-pages-concepts-js-22b97772eaa5dc1e8148.js",
+      "component---src-pages-concepts-js-22b97772eaa5dc1e8148.js.map"
+    ],
     "path---creative-explorer": [
       "path---creative-explorer-a0e39f21c11f6a62c5ab.js",
       "path---creative-explorer-a0e39f21c11f6a62c5ab.js.map"
@@ -143,9 +151,9 @@
       "path---globespinning-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-2dc1cf7b667f854d2925.js",
+      "app-2bf6cfda9301c3533092.js",
       "build-js-styles.css",
-      "app-2dc1cf7b667f854d2925.js.map",
+      "app-2bf6cfda9301c3533092.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-knowledge-js": [
@@ -153,8 +161,8 @@
       "component---src-pages-knowledge-js-f442e945d79692e59050.js.map"
     ],
     "component---src-pages-hazel-js": [
-      "component---src-pages-hazel-js-a1fd8eb27b0d2ccb755a.js",
-      "component---src-pages-hazel-js-a1fd8eb27b0d2ccb755a.js.map"
+      "component---src-pages-hazel-js-75c6e37e888dd4965aaa.js",
+      "component---src-pages-hazel-js-75c6e37e888dd4965aaa.js.map"
     ],
     "path---seahappyhours": [
       "path---seahappyhours-a0e39f21c11f6a62c5ab.js",
