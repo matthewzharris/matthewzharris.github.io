@@ -14,12 +14,12 @@ const Ideation = () => (
   <Section shade={2} title="Ideation">
     <SubSection title="Tagging">
       <p>
-        During ethnographic research, it became clear that it is difficult and
-        time consuming to understand what is driving performance of their
-        marketing portfolio. In order to allow marketers to evaluate their
-        marketing portfolio, they need the ability to tag their ads based on
-        their marketing initiatives and concepts so they can track, evaluate,
-        and optimize their portfolio based on trends and patterns.
+        During research, users found it difficult and time consuming to
+        understand what is driving performance of their marketing portfolio. In
+        order to allow marketers to evaluate their marketing portfolio, they
+        need the ability to tag their ads based on their marketing initiatives
+        and concepts so they can track, evaluate, and optimize their portfolio
+        based on trends and patterns.
       </p>
       <Image alt="Tagging Sketch" src={taggingSketchImage} />
       <Image alt="Tagging Wireframe" src={taggingWireframeImage} />
@@ -33,16 +33,11 @@ const Ideation = () => (
 
     <SubSection title="Extending Tagging to Creative Explorer">
       <p>
-        From research, it was clear that the tagging functionality needed to be
-        included in Creative Explorer so that users could see their ad
-        performance based on their own concepts. For this work, I wanted to
-        focus on a cohesive experience across the platform.
-      </p>
-      <p>
-        I began by sketching design solutions that would allow users to click
-        into their ads to view, add and/or remove their tags. From this
-        exploration, it was clear that there was enough information that a new
-        modal was required.
+        I wanted to design a cohesive tagging experience across the New Engen
+        platform. I began by sketching design solutions that would allow users
+        to click into their ads to view, add and/or remove their tags. From this
+        exploration, I made the decision to use a modal due to the amount of new
+        information that needed to be displayed to the user.
       </p>
       <Image alt="Tagging Sketch" src={taggingCESketch1Image} />
       <Image alt="Tagging Sketch" src={taggingCESketch2Image} />

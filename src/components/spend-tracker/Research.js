@@ -40,7 +40,7 @@ const Research = () => (
         for marketers. It was clear from generative research that marketers
         approached budgeting in many different ways. Our solution would both
         have to focus on the common challenges that are consistent for our users
-        and be flexible enough to accomodate different workflows.
+        and be flexible enough to accommodate different workflows.
       </p>
       <div className="row">
         <div className="col-md-3">
