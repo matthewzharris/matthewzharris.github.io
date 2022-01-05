@@ -3,6 +3,17 @@ import Link from 'gatsby-link';
 
 import './WorkItem.css';
 
+const WorkItemWrapper = ({ to, href, children }) => {
+  if (to) {
+    return <Link to={to}>{children}</Link>;
+  }
+  return (
+    <a href={href} target="_blank">
+      {children}
+    </a>
+  );
+};
+
 const WorkItem = ({
   image,
   link,
@@ -11,8 +22,9 @@ const WorkItem = ({
   cover = true,
   bgSize,
   bgColor,
+  href,
 }) => (
-  <Link to={link}>
+  <WorkItemWrapper to={link} href={href}>
     <div
       style={{
         backgroundImage: `url(${image})`,
@@ -21,13 +33,15 @@ const WorkItem = ({
       }}
       className="d-flex flex-column justify-content-end align-items-end p-3 work-item-img work-item-img-cue"
     >
-      <div className="work-content">
-        <h3>{title}</h3>
-        <small>{subtitle}</small>
-        <div className="work-accent" />
-      </div>
+      {title || subtitle ? (
+        <div className="work-content">
+          <h3>{title}</h3>
+          <small>{subtitle}</small>
+          <div className="work-accent" />
+        </div>
+      ) : null}
     </div>
-  </Link>
+  </WorkItemWrapper>
 );
 
 export default WorkItem;

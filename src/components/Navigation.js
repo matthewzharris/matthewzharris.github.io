@@ -25,7 +25,7 @@ class Navigation extends Component {
     const { pathPrefix } = this.state;
     return (
       <Transition config={config.slow} from={{ top: -50 }} enter={{ top: 0 }}>
-        {styles => (
+        {(styles) => (
           <ul style={styles} className="nav justify-content-end p-2 fixed-top">
             <Link className="nav-logo-link" to={`${pathPrefix}/`}>
               <img className="nav-logo" src={logo} alt="logo" />
@@ -36,14 +36,13 @@ class Navigation extends Component {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to={`${pathPrefix}/#about`}>
-                About
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to={`${pathPrefix}/#contact`}>
-                Contact
-              </Link>
+              <a
+                className="nav-link"
+                href="/Matt Harris Resume.pdf"
+                target="_blank"
+              >
+                Resume
+              </a>
             </li>
           </ul>
         )}

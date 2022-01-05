@@ -48,8 +48,7 @@ h1 {
 }
 
 h2,
-h3,
-h5 {
+h3 {
   font-family: 'PT Serif', Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -71,8 +70,9 @@ h4 {
 }
 
 h5 {
-  font-family: 'PT Serif', Georgia, Times, 'Times New Roman', serif;
-  font-size: 0.8rem;
+  font-family: 'Helvetica Neue', helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
 }
 
 hr {
@@ -106,12 +106,17 @@ li {
 }
 
 .btn.btn-light {
-  background-color: #67fcfa;
+  background-color: black;
   -webkit-appearance: none;
-  color: black;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 0;
+  color: #67fcfa;
+  border: solid 1px #67fcfa;
+  padding: 6px 20px;
+  border-radius: 4px;
+}
+
+.index-subtitle {
+  font-size: 1.5rem;
+  max-width: 500px;
 }
 
 /* Vertical Rythm */

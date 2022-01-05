@@ -14,11 +14,11 @@ export default class IndexPage extends Component {
   render() {
     return (
       <div>
-        <Hero title="matt harris">
-          <p>
-            Product-minded UX Designer living in Seattle working at{' '}
-            <a href="https://www.newengen.com/" target="_blank">
-              New Engen
+        <Hero title="Matt Harris">
+          <p className="index-subtitle">
+            Product-minded UX Designer based in Los Angeles working at{' '}
+            <a href="https://www.nginx.com/" target="_blank">
+              Nginx (F5)
             </a>
             .
           </p>

@@ -6,10 +6,6 @@
   height: 400px;
 }
 
-.contact-links {
-  font-size: 0.8rem;
-}
-
 @media (max-width: 575px) {
   .contact-links {
     flex-wrap: wrap;
