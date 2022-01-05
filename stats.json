@@ -9,8 +9,8 @@
       "component---src-pages-creative-explorer-js-e6058a670585d0a07055.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-777448ae8b5cf93460bc.js",
-      "component---src-pages-index-js-777448ae8b5cf93460bc.js.map"
+      "component---src-pages-index-js-371f76814d6ee5686325.js",
+      "component---src-pages-index-js-371f76814d6ee5686325.js.map"
     ],
     "path---sprinklr": [
       "path---sprinklr-a0e39f21c11f6a62c5ab.js",
@@ -53,8 +53,8 @@
       "path---mixpanel-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-9e7fa85dab2de540b37d.js",
-      "component---src-layouts-index-js-9e7fa85dab2de540b37d.js.map"
+      "component---src-layouts-index-js-8b2a30420eb7afbb9eda.js",
+      "component---src-layouts-index-js-8b2a30420eb7afbb9eda.js.map"
     ],
     "path---cue": [
       "path---cue-a0e39f21c11f6a62c5ab.js",
@@ -89,9 +89,9 @@
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-da0ab6f6c26052673297.js",
+      "commons-920088af1b3d406669a4.js",
       "build-js-styles.css",
-      "commons-da0ab6f6c26052673297.js.map",
+      "commons-920088af1b3d406669a4.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-hbo-js": [
@@ -127,8 +127,8 @@
       "component---src-pages-sprinklr-js-04a6594106b54cd3119c.js.map"
     ],
     "component---src-pages-concepts-js": [
-      "component---src-pages-concepts-js-9cfc9829c0f86c63fe26.js",
-      "component---src-pages-concepts-js-9cfc9829c0f86c63fe26.js.map"
+      "component---src-pages-concepts-js-df8b0b3e5e925e3983ed.js",
+      "component---src-pages-concepts-js-df8b0b3e5e925e3983ed.js.map"
     ],
     "path---creative-explorer": [
       "path---creative-explorer-a0e39f21c11f6a62c5ab.js",
@@ -151,9 +151,9 @@
       "path---globespinning-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-2bf6cfda9301c3533092.js",
+      "app-98d7ab6660b945965922.js",
       "build-js-styles.css",
-      "app-2bf6cfda9301c3533092.js.map",
+      "app-98d7ab6660b945965922.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-knowledge-js": [
