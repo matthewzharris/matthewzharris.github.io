@@ -14,22 +14,17 @@ const Solution = () => (
   <Section shade={3} title="Solution">
     <SubSection title="Mockups">
       <Image alt="Globespinning Mobile Homepage" src={mobilehomepageImage} />
-      <Image alt="Globespinning Mobile Search & Notifications" src={searchnotificationsImage} />
+      <Image
+        alt="Globespinning Mobile Search & Notifications"
+        src={searchnotificationsImage}
+      />
     </SubSection>
 
     <SubSection title="Prototype">
-      <h4>Creation Flow</h4>
       <div className="text-center">
         <Video
           width="100%"
-          src="https://www.dropbox.com/s/8oyjijtgxr9bt47/GlobespinningCreateTrip.mp4?raw=1"
-        />
-      </div>
-      <h4>View Flow</h4>
-      <div className="text-center">
-        <Video
-          width="100%"
-          src="https://www.dropbox.com/s/k1cu5ab0kdh8otw/GlobespinningViewTrips1866by1400.mp4?raw=1"
+          src="https://www.dropbox.com/s/lsdsc3lnvzu6b79/Globespinning_Prototype.MP4?raw=1"
         />
       </div>
     </SubSection>
@@ -37,13 +32,15 @@ const Solution = () => (
     <hr />
 
     <SubSection title="Web App">
-      <p>As a part of this project, I also executed a redesign the Globespinning website that would continue the experience and functionality of the new mobile app.
+      <p>
+        As a part of this project, I also executed a redesign the Globespinning
+        website that would continue the experience and functionality of the new
+        mobile app.
       </p>
       <Image alt="Globespinning Web Homepage" src={webhomepageImage} />
       <Image alt="Globespinning Web Trips" src={webtripsImage} />
       <Image alt="Globespinning Web Trip Detail" src={webtripdetailImage} />
     </SubSection>
-
   </Section>
 );
 
