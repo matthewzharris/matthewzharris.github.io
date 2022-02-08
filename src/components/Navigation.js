@@ -38,7 +38,7 @@ class Navigation extends Component {
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="/Matt Harris Resume 2022.pdf"
+                href="/Matt Harris Resume - 2022.pdf"
                 target="_blank"
               >
                 Resume
