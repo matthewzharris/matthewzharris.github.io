@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 import Section, { SubSection } from '../Section';
 import Image from '../Image';
 
-import DCHappyHoursImage from '../../images/DCHappyHours.jpg';
+import DCHappyHoursImage from '../../images/dchappyhours.jpg';
 import happyhourfinderImage from '../../images/happyhourfinder.jpg';
 import SHHuserflowImage from '../../images/SHHuserflow.jpg';
 import SHHpersonaImage from '../../images/SHHpersona.jpg';

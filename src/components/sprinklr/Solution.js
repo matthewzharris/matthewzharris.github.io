@@ -4,7 +4,7 @@ import Section, { SubSection } from '../Section';
 import Image from '../Image';
 import Video from '../Video';
 
-import styleguideImage from '../../images/sprinklrstyleguide.jpg';
+import styleguideImage from '../../images/Sprinklrstyleguide.jpg';
 import sitemapImage from '../../images/sprinklrsitemap.jpg';
 
 const Solution = () => (

@@ -3,8 +3,8 @@ import React from 'react';
 import WorkItem from '../../components/WorkItem';
 
 import cueImage from '../../images/cue.jpg';
-import readyImage from '../../images/P3HeroFinal.jpg';
-import retrofitImage from '../../images/P2HeroFinal.jpg';
+import readyImage from '../../images/P3herofinal.jpg';
+import retrofitImage from '../../images/P2herofinal.jpg';
 import emeraldImage from '../../images/emerald.jpg';
 import SHHImage from '../../images/SHHhero2.jpg';
 

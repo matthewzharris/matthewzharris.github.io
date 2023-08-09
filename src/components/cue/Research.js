@@ -6,7 +6,7 @@ import Image from '../Image';
 
 import designImage from '../../images/p4process.jpg';
 import analysisImage from '../../images/p4companalysis.jpg';
-import heuristicImage from '../../images/p4heuristics.jpg';
+import heuristicImage from '../../images/P4heuristics.jpg';
 import contextualInquiry from '../../images/p4contextualinquiry.jpg';
 import affinityMapping from '../../images/p4interviewaffinitymapping2.jpg';
 import personaImage from '../../images/p4persona.jpg';
