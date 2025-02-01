@@ -15,7 +15,7 @@ const Work = () => (
       </div>
       <div className="row mb-4">
         <div className="col-md-12 mb-4 mb-md-0">
-          <WorkItem href="https://www.datadoghq.com/product/cloud-cost-management/" image={datadogImage} />
+          <WorkItem href="https://www.datadoghq.com/product/cloud-cost-management/" title="Cloud Cost Management" image={datadogImage} />
         </div>
       </div>
     </section>
