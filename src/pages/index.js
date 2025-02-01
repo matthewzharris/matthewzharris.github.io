@@ -16,7 +16,7 @@ export default class IndexPage extends Component {
       <div>
         <Hero title="Matt Harris">
           <p className="index-subtitle">
-            Product-minded UX Designer based in Seattle working at{' '}
+          Product-minded UX Designer based in San Francisco working at{' '}
             <a href="https://datadoghq.com/" target="_blank">
               Datadog
             </a>
