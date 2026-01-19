@@ -36,6 +36,35 @@
   margin-bottom: 0;
 }
 
+/* Download Resume Button */
+.download-resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 2rem;
+  padding: 8px 1.5rem;
+  border: 1px solid #61F2F1;
+  border-radius: 4px;
+  background: #111922;
+  color: #61F2F1;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  width: fit-content;
+}
+
+.download-resume-btn:hover {
+  background: #1a2530;
+  color: #61F2F1;
+  border-color: #61F2F1;
+  transform: translateY(-2px);
+}
+
+.download-resume-btn svg {
+  flex-shrink: 0;
+}
+
 /* Selected Works */
 .selected-works-list {
   display: grid;

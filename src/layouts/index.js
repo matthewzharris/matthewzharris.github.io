@@ -42,6 +42,11 @@ const Layout = ({ children, data }) => (
     </Helmet>
     <Navigation />
     <div>{children()}</div>
+    <footer className="site-footer">
+      <div className="container">
+        <p>© 2026 Matt Harris</p>
+      </div>
+    </footer>
   </div>
 );
 
