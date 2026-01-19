@@ -44,6 +44,11 @@ class Navigation extends Component {
                 Resume
               </a>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to={`${pathPrefix}/about/`}>
+                About
+              </Link>
+            </li>
           </ul>
         )}
       </Transition>

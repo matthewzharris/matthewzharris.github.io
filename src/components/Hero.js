@@ -36,14 +36,14 @@ class Hero extends Component {
   };
 
   render() {
-    const { title, subtitle, image, imageAlt, imageCaption, portrait, portraitAlt, showScrollIndicator, children } = this.props;
+    const { title, subtitle, image, imageAlt, imageCaption, portrait, portraitAlt, showScrollIndicator, customClassName, children } = this.props;
     const { showIndicator } = this.state;
 
     return (
       <Transition config={config.slow} from={{ opacity: 0 }} enter={{ opacity: 1 }}>
         {(styles) => (
           <div className={showScrollIndicator ? 'hero-section' : ''}>
-            <header style={styles} className={`container mt-6 mb-6 ${portrait ? 'hero-with-portrait' : 'd-flex flex-column'}`}>
+            <header style={styles} className={`container mt-6 ${customClassName || 'mb-6'} ${portrait ? 'hero-with-portrait' : 'd-flex flex-column'}`}>
               <div className="hero-content">
                 <h1>{title}</h1>
                 {subtitle && <h2>{subtitle}</h2>}

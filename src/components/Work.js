@@ -24,7 +24,7 @@ const Work = () => (
       <div className="row">
         <div className="col-sm">
           <Link to="/past-work/" style={{ color: 'rgba(255, 255, 255, 0.9)', textDecoration: 'none', fontSize: '1rem' }}>
-            View Past Work →
+            View All Work →
           </Link>
         </div>
       </div>

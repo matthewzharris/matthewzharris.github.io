@@ -175,9 +175,13 @@
   }
 
   .hero-portrait-wrapper {
-    max-width: 400px;
+    max-width: 100%;
+    width: 100%;
+    max-height: none;
     justify-self: center;
     order: -1;
+    margin-left: 8px;
+    margin-right: 8px;
   }
 
   .hero-portrait-wrapper::before,

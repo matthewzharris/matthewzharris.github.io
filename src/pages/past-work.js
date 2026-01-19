@@ -10,6 +10,8 @@ import nginxImage from '../images/nginx.png';
 import designSystemImage from '../images/NEDesignSystemHero.jpg';
 import HazelImage from '../images/hazel.jpg';
 import newEngenLiftImage from '../images/new-engen-lift.jpeg';
+import instanceExplorerImage from '../images/instance-explorer.jpg';
+import cloudCostImage from '../images/cloud-cost-management-hero.png';
 
 export default class PastWork extends React.Component {
   componentDidMount() {
@@ -19,12 +21,20 @@ export default class PastWork extends React.Component {
   render() {
     return (
       <Fragment>
-        <Helmet title="Past Work | matt harris" />
-        <Hero title="Past Work">
-          <p>A collection of previous projects and design work</p>
+        <Helmet title="Work | matt harris" />
+        <Hero title="Work" customClassName="mb-4">
+          <p style={{ marginBottom: 0 }}>A collection of projects and design work</p>
         </Hero>
 
         <section className="container mb-5 pb-5">
+          <div className="row mb-4">
+            <div className="col-md-6 mb-4 mb-md-0">
+              <WorkItem href="https://www.datadoghq.com/product/cloud-cost-management/" title="Cloud Cost Management" image={cloudCostImage} />
+            </div>
+            <div className="col-md-6 mb-4 mb-md-0">
+              <WorkItem href="https://instances.datadoghq.com/" title="Instance Explorer" image={instanceExplorerImage} />
+            </div>
+          </div>
           <div className="row mb-4">
             <div className="col-md-6 mb-4 mb-md-0">
               <WorkItem href="https://www.nginx.com/" title="NGINX" image={nginxImage} />
