@@ -1,10 +1,8 @@
 import React, { Fragment } from 'react';
+import Link from 'gatsby-link';
 
 import WorkItem from '../components/WorkItem';
 
-import nginxImage from '../images/nginx.png';
-import designSystemImage from '../images/NEDesignSystemHero.jpg';
-import HazelImage from '../images/hazel.jpg';
 import datadogImage from '../images/datadog-logo.png';
 
 const Work = () => (
@@ -14,36 +12,18 @@ const Work = () => (
         <h5 className="col-sm">Current Work</h5>
       </div>
       <div className="row mb-4">
-        <div className="col-md-12 mb-4 mb-md-0">
+        <div className="col-md-6 mb-4 mb-md-0">
           <WorkItem href="https://www.datadoghq.com/product/cloud-cost-management/" title="Cloud Cost Management" image={datadogImage} />
         </div>
+        <div className="col-md-6 mb-4 mb-md-0">
+          <WorkItem href="https://instances.datadoghq.com/" title="Instance Explorer" image={datadogImage} />
+        </div>
       </div>
-    </section>
-
-    <section className="container mb-5 pb-5" id="work">
       <div className="row">
-        <h5 className="col-sm">Past Work</h5>
-      </div>
-      <div className="row mb-4">
-        <div className="col-md-12 mb-4 mb-md-0">
-          <WorkItem href="https://www.nginx.com/" image={nginxImage} />
-        </div>
-      </div>
-      <div className="row mb-4">
-        <div className="col-md-8">
-          <WorkItem
-            link="/new-engen-design-system/"
-            title="New Engen Design System"
-            image={designSystemImage}
-          />
-        </div>
-        <div className="col-md-4">
-          <WorkItem
-            link="/hazel/"
-            title="Hazel Analytics"
-            subtitle="Web app redesign"
-            image={HazelImage}
-          />
+        <div className="col-sm">
+          <Link to="/past-work/" style={{ color: 'rgba(255, 255, 255, 0.9)', textDecoration: 'none', fontSize: '1rem' }}>
+            View Past Work →
+          </Link>
         </div>
       </div>
     </section>
