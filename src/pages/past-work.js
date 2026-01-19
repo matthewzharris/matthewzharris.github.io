@@ -9,6 +9,7 @@ import { PATH_PREFIX_COOKIE } from '../constants';
 import nginxImage from '../images/nginx.png';
 import designSystemImage from '../images/NEDesignSystemHero.jpg';
 import HazelImage from '../images/hazel.jpg';
+import newEngenLiftImage from '../images/new-engen-lift.jpeg';
 
 export default class PastWork extends React.Component {
   componentDidMount() {
@@ -25,8 +26,11 @@ export default class PastWork extends React.Component {
 
         <section className="container mb-5 pb-5">
           <div className="row mb-4">
-            <div className="col-md-12 mb-4 mb-md-0">
-              <WorkItem href="https://www.nginx.com/" image={nginxImage} />
+            <div className="col-md-6 mb-4 mb-md-0">
+              <WorkItem href="https://www.nginx.com/" title="NGINX" image={nginxImage} />
+            </div>
+            <div className="col-md-6 mb-4 mb-md-0">
+              <WorkItem href="https://newengen.com/technology/" title="New Engen" subtitle="LIFT Platform" image={newEngenLiftImage} />
             </div>
           </div>
           <div className="row mb-4">
