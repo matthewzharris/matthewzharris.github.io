@@ -1,3 +1,6 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
 /* General */
 
 html {
@@ -45,6 +48,7 @@ strong {
 h1 {
   font-family: 'Helvetica Neue', helvetica, sans-serif;
   font-size: 3rem;
+  font-weight: 800;
 }
 
 h2,
@@ -119,6 +123,41 @@ li {
   max-width: 500px;
 }
 
+/* Stylized Name - Gradient inspired by cnewton.org */
+.stylized-name {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.03em;
+  background: linear-gradient(
+    135deg,
+    #66FBF9 0%,
+    #5D91FF 25%,
+    #926AFE 50%,
+    #E402FF 75%,
+    #FF00FF 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-size: 200% 200%;
+  animation: gradientShift 8s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 /* Vertical Rythm */
 
 .mt-6 {
@@ -126,7 +165,7 @@ li {
 }
 
 .mb-6 {
-  margin-bottom: 7.5rem !important;
+  margin-bottom: 5rem !important;
 }
 
 /* Footer */
@@ -151,6 +190,6 @@ li {
   }
 
   .mb-6 {
-    margin-bottom: 7rem !important;
+    margin-bottom: 5rem !important;
   }
 }
